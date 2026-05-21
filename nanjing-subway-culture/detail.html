@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>文化详情</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../leaflet/leaflet.css" />
+  <style>
+    body { font-family: "微软雅黑", sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    .carousel { width: 100%; height: 300px; position: relative; overflow: hidden; }
+    .carousel-inner { display: flex; transition: transform 0.5s ease-in-out; height: 100%; }
+    .carousel-inner img { width: 100%; height: 100%; object-fit: cover; flex: 0 0 100%; }
+    .carousel-button { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #fff; border: none; font-size: 24px; padding: 10px; cursor: pointer; z-index: 10; }
+    .carousel-button.left { left: 10px; } .carousel-button.right { right: 10px; }
+    .carousel-indicators { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; }
+    .carousel-indicators span { width: 10px; height: 10px; background-color: #ccc; border-radius: 50%; cursor: pointer; }
+    .carousel-indicators span.active { background-color: #d43f3a; }
+    .info-section { display: flex; flex-wrap: wrap; padding: 20px; background: #fff; gap: 20px; }
+    #map { flex: 1 1 50%; height: 300px; border-radius: 8px; }
+    .info-panel { flex: 1 1 40%; font-size: 16px; color: #333; }
+    .info-panel p { margin: 10px 0; }
+    .info-panel ul { padding-left: 20px; margin-top: 6px; }
+    .description { padding: 20px; font-size: 16px; background: #fff; line-height: 1.8; }
+  </style>
+</head>
+<body>
+
+<div class="carousel">
+  <div class="carousel-inner" id="carousel"></div>
+  <button class="carousel-button left" onclick="moveSlide(-1)">❮</button>
+  <button class="carousel-button right" onclick="moveSlide(1)">❯</button>
+  <div class="carousel-indicators" id="indicators"></div>
+</div>
+
+<div class="info-section">
+  <div id="map"></div>
+  <div class="info-panel">
+    <p><strong>📍 地址：</strong><span id="address"></span></p>
+    <p><strong>🎫 门票：</strong><span id="ticket"></span></p>
+    <p><strong>📞 电话：</strong><span id="tel"></span></p>
+    <p><strong>🚇 交通：</strong><ul id="transport"></ul></p>
+  </div>
+</div>
+
+<div class="description" id="description"></div>
+
+<script src="../config.example.js"></script>
+<script src="../config.local.js"></script>
+<script src="../leaflet/leaflet.js"></script>
+<script>
+  let currentSlide = 0, totalSlides = 0, interval, map;
+
+
+  function updateCarousel() {
+    document.getElementById('carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
+    document.querySelectorAll('.carousel-indicators span').forEach((dot, i) =>
+      dot.classList.toggle('active', i === currentSlide)
+    );
+  }
+
+  function moveSlide(n) {
+    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
+    updateCarousel();
+    resetInterval();
+  }
+
+  function resetInterval() {
+    clearInterval(interval);
+    interval = setInterval(() => moveSlide(1), 5000);
+  }
+
+  const id = new URLSearchParams(window.location.search).get('placeId');
+
+  fetch('data/details.json')
+    .then(res => res.json())
+    .then(data => {
+      const place = data.find(p => p.id === id);
+      if (!place) return document.body.innerHTML = "<p style='padding: 20px;'>未找到该景点</p>";
+
+      // 轮播图
+      const carousel = document.getElementById('carousel');
+      const indicators = document.getElementById('indicators');
+      place.images.forEach((src, idx) => {
+        const img = document.createElement('img'); img.src = src; carousel.appendChild(img);
+        const dot = document.createElement('span');
+        if (idx === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => { currentSlide = idx; updateCarousel(); resetInterval(); });
+        indicators.appendChild(dot);
+      });
+      totalSlides = place.images.length;
+      resetInterval();
+
+      const [lng, lat] = place.location;
+      // 地图初始化
+  
+     const appConfig = window.JL_METRO_CONFIG || {};
+     const amapKey = appConfig.AMAP_KEY || "";
+     const amapKeyParam = amapKey ? `&key=${encodeURIComponent(amapKey)}` : "";
+
+const baseLayer = L.tileLayer(
+  `https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}${amapKeyParam}`, 
+  {
+    subdomains: ["1", "2", "3", "4"],
+    maxZoom: 19,
+    minZoom: 3,
+    keepBuffer: 2,
+    updateWhenIdle: true,
+    detectRetina: true,
+    crossOrigin: 'anonymous',
+    attribution: "© 高德地图",
+    errorTileUrl: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='
+  }
+);
+
+const map = L.map('map').setView([lat, lng], 15);
+baseLayer.addTo(map);
+
+
+      L.marker([lat, lng]).addTo(map).bindPopup(place.name).openPopup();
+      setTimeout(() => map.invalidateSize(), 300); // 防止容器大小错误
+
+      // 信息区渲染
+      document.getElementById('address').textContent = place.address;
+      document.getElementById('ticket').textContent = place.ticket;
+      document.getElementById('tel').textContent = place.tel;
+      const ul = document.getElementById('transport');
+      place.transport.forEach(line => {
+        const li = document.createElement('li'); li.textContent = line; ul.appendChild(li);
+      });
+      document.getElementById('description').textContent = place.description;
+    });
+</script>
+</body>
+</html>

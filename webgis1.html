@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <link rel="icon" href="images/LOGO.png" type="image/png">
+  <meta charset="UTF-8" />
+   <link rel="stylesheet" href="Location.css">
+   <link rel="stylesheet" href="major web.css?v=1.0.1">
+   <link rel="stylesheet" href="nanjing-subway-culture/AI.css">
+  
+  
+   <title>智慧地铁系统</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="leaflet/leaflet.css" />
+  <!-- 粒子动画库 -->
+  <script src="web effect/particles.min.js"></script>
+</head>
+<script src="web effect/marked.min.js"></script>
+<script src="config.example.js"></script>
+<script src="config.local.js"></script>
+<body>
+  <!-- 粒子背景层 -->
+  <div id="particles-js"></div>
+
+  <!-- 页面结构 -->
+<header>
+  <div class="header-content">
+    <div class="text">
+      <h1><span class="gradient-text">金陵地铁智行通</span></h1>
+  <p><span class="gradient-text">地铁文化旅游一体化平台</span></p>
+    </div>
+    <img src="images/LOGO.png" alt="南京地铁" class="LOGO">
+    
+    <!-- ✅ 天气组件放这里 -->
+    <div id="weatherBox">
+      📍 当前地区：<span id="currentCity">定位中...</span> |
+      🌤 天气：<span id="currentWeather">加载中...</span>
+    </div>
+  </div>
+</header>
+
+
+  <main>
+    <!-- 左侧功能按钮 -->
+    <div class="left-panel">
+   <button class="left-button" onclick="locateMe()"><img src="images/定位位置目的地.png"
+         alt="我的位置" style="width:26px; height:30px; vertical-align:middle; margin-right:6px;">
+        我的位置</button>
+      <button class="left-button" onclick="window.location.href='SubwayLife.html'">
+        <img src="images/生活圈.png" alt="删除图标" style="width:26px; height:30px; vertical-align:middle; margin-right:6px;">
+         地铁生活服务</button>
+      <button class="left-button" onclick="window.location.href='xianlu.html'">
+  <img src="images/11-线路简介彩色.png" 
+       alt="线路简介" style="width:26px; height:30px; vertical-align:middle; margin-right:6px;">
+   地铁线路简介</button>
+      <button class="left-button" onclick="window.location.href='test1704.html'"><img src="images/拥挤程度.png"
+         alt="客流量" style="width:26px; height:30px; vertical-align:middle; margin-right:6px;">
+        线路实时客流量</button>
+  <button class="left-button" onclick="window.location.href='nanjing-subway-culture/main.html'"><img src="images/旅游景点.png"
+         alt="文化地铁" style="width:26px; height:30px; vertical-align:middle; margin-right:6px;">
+        金陵文化导览</button>
+        <button class="left-button" onclick="window.location.href='contact.html'"><img src="images/信息.png"
+         alt="联系我们" style="width:26px; height:30px; vertical-align:middle; margin-right:6px;">
+        联系我们</button>
+</button>
+    </div>
+
+    <!-- 地图与输入 -->
+    <div class="map-section">
+      <div id="map">地图加载区域</div>
+
+       <form class="input-bar" id="searchForm">
+        <div class="input-group" style="position: relative;">
+  <input type="text" id="startInput" placeholder="请输入起点站名">
+  <div class="suggestions" id="startSuggestions"></div>
+
+  <input type="text" id="endInput" placeholder="请输入终点站名">
+  <div class="suggestions" id="endSuggestions"></div>
+</div>
+
+        <div class="action-buttons">
+          <button type="submit" id="searchBtn">查询</button>
+          <button type="button" id="clearButton">清空</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- 右侧选择框 -->
+    <div class="right-panel">
+      <div class="dropdown-group">
+        <label for="lineSelect">选择线路</label>
+        <select id="lineSelect">
+         <option value="">请选择线路</option>
+            <option value="1">地铁1号线</option>
+            <option value="2">地铁2号线</option>
+            <option value="3">地铁3号线</option>
+            <option value="4">地铁4号线</option>
+            <option value="7">地铁7号线</option>
+            <option value="10">地铁10号线</option>
+            <option value="S1">地铁S1线</option>
+            <option value="S3">地铁S3线</option>
+            <option value="S6">地铁S6线</option>
+            <option value="S7">地铁S7线</option>
+            <option value="S8">地铁S8线</option>
+            <option value="S9">地铁S9线</option>
+        </select>
+      </div>
+
+      <div class="dropdown-group">
+        <label for="stationSelect">选择站点：</label>
+        <select id="stationSelect" disabled>
+            <option value="">请先选择线路</option>
+        </select>
+      </div>
+      <div class="button-group">
+  <button id="setStartBtn" disabled>设为起点</button>
+  <button id="setEndBtn" disabled>设为终点</button>
+</div>
+    
+<div id="result"></div>
+</div>
+
+  </main>
+
+  <footer>
+    © 金陵地铁智行通
+  </footer>
+ <script>
+        
+        // 页面加载完成后初始化
+     window.onload = function () {
+  console.log("网页已加载！");
+  initMap().then(() => {
+    console.log("地图初始化完成！");
+    checkDependencies();  // 这里是你后续要调用的函数，比如初始化模糊搜索
+  }).catch(err => {
+    console.error("地图初始化失败:", err);
+  });
+};
+
+    </script>
+<script src="leaflet/leaflet.js"></script>
+<script src="majormap.js"></script>
+<script src="search.js"></script> 
+<script src="Location.js"></script> 
+<script src="SubwayLife.js"></script>
+<script src="nanjing-subway-culture/chat-widget.js"></script>
+<script src="nanjing-subway-culture/weather-widget.js"></script>
+  <script>
+   // 粒子动画初始化
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 60, density: { enable: true, value_area: 800 } },
+        color: { value: "#00ffff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5 },
+        size: { value: 3 },
+        line_linked: {
+          enable: true,
+          distance: 120,
+          color: "#00ffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 2,
+          direction: "none",
+          out_mode: "out"
+        }
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" }
+        },
+        modes: {
+          repulse: { distance: 100 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  
+  // 初始化路径查找器________________________________________________________-
+let pathFinder;
+
+// 使用更可靠的事件检测
+function checkDependencies() {
+   console.log("正在检查依赖项...");
+  if (window.getMetroGraph && window.MetroPathFinder) {
+    initializePathFinder();
+  } else {
+    console.log("等待依赖项...");
+    setTimeout(checkDependencies, 100);
+  }
+}
+
+function initializePathFinder() {
+  try {
+      console.log("初始化路径查找器...");
+    const graph = getMetroGraph();
+    pathFinder = new MetroPathFinder(graph);
+    console.log("路径查找器初始化成功", pathFinder);
+
+    // 初始化站点下拉列表
+    const stations = Object.keys(graph.stations);
+       setupFuzzySearch('startInput', 'startSuggestions', stations);
+       setupFuzzySearch('endInput', 'endSuggestions', stations);
+       console.log("🚇 自动补全站点数量：", stations.length, stations.slice(0, 10));
+  } catch (e) {
+    console.error("初始化路径查找器失败:", e);
+  }
+}
+
+function initSearch() {
+  try {
+    const graph = getMetroGraph();
+    const stations = Object.keys(graph.stations);
+    console.log("🚇 自动补全站点数量：", stations.length, stations.slice(0, 10));
+
+    setupFuzzySearch('startInput', 'startSuggestions', stations);
+    setupFuzzySearch('endInput', 'endSuggestions', stations);
+
+  } catch (e) {
+    console.error("初始化路径查找器失败:", e);
+  }
+}
+  let startMarker = null;
+let endMarker = null;
+
+function setupFuzzySearch(inputId, suggestionsId, data) {
+  const input = document.getElementById(inputId);
+  const suggestions = document.getElementById(suggestionsId);
+
+  function updateSuggestions(value) {
+    suggestions.innerHTML = '';
+    if (!value.trim()) {
+      suggestions.style.display = 'none';
+      return;
+    }
+    const matched = data.filter(name => name.includes(value));
+    if (matched.length === 0) {
+      suggestions.style.display = 'none';
+      return;
+    }
+    matched.forEach(name => {
+      const div = document.createElement('div');
+      div.textContent = name;
+      div.onclick = () => {
+        input.value = name;
+        suggestions.style.display = 'none';
+      };
+      suggestions.appendChild(div);
+    });
+    suggestions.style.display = 'block';
+  }
+
+  // 监听输入内容变化
+  input.addEventListener('input', () => {
+    updateSuggestions(input.value);
+  });
+
+  // ✅ 新增：点击输入框时自动重新显示建议
+  input.addEventListener('focus', () => {
+    updateSuggestions(input.value);
+  });
+
+  // 点击外部时隐藏
+  document.addEventListener('click', (e) => {
+    if (!input.contains(e.target) && !suggestions.contains(e.target)) {
+      suggestions.style.display = 'none';
+    }
+  });
+
+  console.log(`[${inputId}] 模糊查询事件绑定成功`);
+}
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  // 确保地图和图表数据已加载
+  setTimeout(() => {
+    if (window.getMetroGraph && window.MetroPathFinder) {
+      pathFinder = new MetroPathFinder(getMetroGraph());
+      console.log("路径查找器已初始化:", pathFinder);
+      
+      // 填充站点自动补全（保持原有逻辑）
+      const stations = Object.keys(getMetroGraph().stations);
+     
+    } else {
+      console.error("必要的全局变量未定义");
+    }
+  }, 500);
+//清空逻辑
+// 清空按钮事件监听
+document.getElementById('clearButton').addEventListener('click', function () {
+  // 清除高亮路径
+  if (pathFinder) {
+    pathFinder.clearPath();
+    console.log('✔️ 已清除高亮路径');
+  }
+
+  // 清除起点和终点标记
+  if (startMarker && map.hasLayer(startMarker)) {
+    map.removeLayer(startMarker);
+    console.log('✔️ 已移除起点标记');
+  }
+  if (endMarker && map.hasLayer(endMarker)) {
+    map.removeLayer(endMarker);
+    console.log('✔️ 已移除终点标记');
+  }
+
+  // 清除结果显示框
+  const resultDiv = document.getElementById('result');
+  resultDiv.innerHTML = '';  // 清空结果栏内容
+
+  // 重置起点和终点输入框
+  document.getElementById('startInput').value = '';
+  document.getElementById('endInput').value = '';
+
+  console.log('✔️ 已清空所有标记和结果');
+});
+
+  // 表单提交处理
+document.getElementById('searchForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  if (!pathFinder) {
+    alert("系统正在初始化，请稍后再试");
+    return;
+  }
+  
+  const start = document.getElementById('startInput').value.trim();
+  const end = document.getElementById('endInput').value.trim();
+  
+  if (!start || !end) {
+    alert('请输入起点和终点站名');
+    return;
+  }
+  
+  const result = pathFinder.findShortestPath(start, end);
+  
+  if (!result.path) {
+    document.getElementById('routeResult').innerHTML = `
+      <div class="error-message">
+        <p>未找到从 <strong>${start}</strong> 到 <strong>${end}</strong> 的路径</p>
+        <p>可能原因：</p>
+        <ul>
+          <li>站点名称输入错误</li>
+          <li>线路尚未连通</li>
+          <li>临时运营调整</li>
+        </ul>
+      </div>
+    `;
+    return;
+  }
+
+ // 清除起点终点图标（确保前一次添加的是 marker 实例）
+  if (startMarker && map.hasLayer(startMarker)) {
+    map.removeLayer(startMarker);
+    console.log('✔️ 已移除上次起点');
+  }
+  if (endMarker && map.hasLayer(endMarker)) {
+    map.removeLayer(endMarker);
+    console.log('✔️ 已移除上次终点');
+  }
+  
+  // 新增起点和终点标记
+  const startCoords = getMetroGraph().stations[start].coords;
+  const endCoords = getMetroGraph().stations[end].coords;
+  startMarker = L.marker(startCoords).addTo(map).bindPopup("起点：" + start);
+  endMarker = L.marker(endCoords).addTo(map).bindPopup("终点：" + end);
+  
+  // 高亮路径
+  pathFinder.highlightPath(result.path, map);
+  
+  // 显示路径信息
+  const resultDiv = document.getElementById('result');
+  const time = pathFinder.calculateTime(result.distance, result.path.length);
+  resultDiv.innerHTML = `
+    <div class="route-result">
+      <h3>路线规划结果</h3>
+      <div class="result-item"><span class="label">起点：</span><span>${start}</span></div>
+      <div class="result-item"><span class="label">终点：</span><span>${end}</span></div>
+      <div class="result-item"><span class="label">路径：</span>
+        <ol class="path-steps">
+          ${result.path.map((station, index) => `
+            <li>
+              <span class="station-name">${station}</span>
+              ${pathFinder.graph.stations[station].queryName && 
+               pathFinder.graph.stations[station].queryName !== station ? 
+                `<span class="query-name">(${pathFinder.graph.stations[station].queryName})</span>` : ''}
+            </li>
+          `).join('')}
+        </ol>
+      </div>
+      <div class="result-item"><span class="label">站数：</span><span>${result.path.length-1}</span></div>
+      <div class="result-item"><span class="label">距离：</span><span>${Math.round(result.distance)} 米</span></div>
+      <div class="result-item"><span class="label">票价：</span><span>${pathFinder.calculateFare(result.distance)} 元</span></div>
+      <div class="result-item"><span class="label">预计时间：</span><span>${time} 分钟</span></div>
+    </div>
+  `;
+    // 居中显示路径（保持原有逻辑）
+    const bounds = L.latLngBounds(
+      result.path.map(station => getMetroGraph().stations[station].coords)
+    );
+    map.fitBounds(bounds, { padding: [50, 50] });
+  });
+
+  // ✅ 绑定设置起点/终点按钮逻辑（确保放在 DOM 元素加载之后）
+  document.getElementById('stationSelect').addEventListener('change', function () {
+    const hasValue = this.value !== '';
+    document.getElementById('setStartBtn').disabled = !hasValue;
+    document.getElementById('setEndBtn').disabled = !hasValue;
+  });
+
+  document.getElementById('setStartBtn').addEventListener('click', function () {
+    const station = document.getElementById('stationSelect').value;
+    if (station) {
+      document.getElementById('startInput').value = station;
+    }
+  });
+
+  document.getElementById('setEndBtn').addEventListener('click', function () {
+    const station = document.getElementById('stationSelect').value;
+    if (station) {
+      document.getElementById('endInput').value = station;
+    }
+  });
+});
+  </script>
+</body>
+</html>

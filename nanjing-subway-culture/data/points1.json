@@ -1,0 +1,73 @@
+[
+  {
+    "id": "nanjing_museum",
+    "name": "南京博物院",
+    "image": "images/njmuseum1.jpg",
+    "description": "南京博物院是中国三大博物馆之一，通史陈列展现江苏千年文脉。",
+    "likes": 120,
+    "views": 2300,
+    "line": "2号线",
+    "category": "文博场馆",
+    "grade": "5A景区",
+    "season": "全部",
+    "street": "夫子庙秦淮风光带",
+    "district": "秦淮区"
+  },
+  {
+    "id": "ming_xiaoling",
+    "name": "明孝陵",
+    "image": "images/mingxiaoling.jpg",
+    "description": "明孝陵是明朝开国皇帝朱元璋的陵墓，历史遗迹典范。",
+    "likes": 98,
+    "views": 1500,
+    "line": "2号线",
+    "category": "历史遗迹",
+    "grade": "5A景区",
+    "season": "赏秋",
+    "street": "钟山风景名胜区",
+    "district": "玄武区"
+  },
+  {
+    "id": "fuzimiao",
+    "name": "夫子庙-秦淮风光带",
+    "image": "images/fuzimiao.png",
+    "description": "夫子庙秦淮风光带是南京传统文化的集中地，夜景迷人。",
+    "likes": 200,
+    "views": 4000,
+    "line": "1号线",
+    "category": "南京新景",
+    "grade": "4A景区",
+    "season": "踏春",
+    "street": "夫子庙秦淮风光带",
+    "district": "秦淮区"
+  },
+  {
+    "id": "jiangning_scenic",
+    "name": "江宁风景区",
+    "image": "images/jiangning.png",
+    "description": "江宁区著名风景区，亲子游玩好去处。",
+    "likes": 75,
+    "views": 900,
+    "line": "10号线",
+    "category": "亲子研学",
+    "grade": "3A景区",
+    "season": "消夏",
+    "street": "滨江风光带",
+    "district": "江宁区"
+  },
+  {
+    "id": "jiming_temple",
+    "name": "鸡鸣寺",
+    "image": "images/jiming_temple.png",
+    "description": "南京著名佛教寺庙，宗教文化胜迹。",
+    "likes": 60,
+    "views": 800,
+    "line": "3号线",
+    "category": "宗教胜迹",
+    "grade": "4A景区",
+    "season": "全部",
+    "street": "钟山风景名胜区",
+    "district": "玄武区"
+  }
+]
+

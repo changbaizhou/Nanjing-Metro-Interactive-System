@@ -1,0 +1,101 @@
+
+.user-message {
+  background: #e6f7ff;
+  color: #0050b3;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 6px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.ai-message {
+  background: #f0f0f0;
+  color: #333;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.thinking-message {
+  color: gray;
+  font-style: italic;
+  margin: 4px 0;
+}
+
+#chat-float-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  cursor: grab;  /* 改成抓手，拖动时更自然 */
+  z-index: 10000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* 聊天窗口 */
+#ai-chat-widget {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: '微软雅黑';
+  display: none;
+  background: #fff;
+  z-index: 9999;
+}
+
+/* 聊天标题 */
+.chat-header {
+  background: #007bff;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+/* 聊天内容区域 */
+.chat-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  background: #fafafa;
+  padding: 10px;
+}
+
+/* 输入与按钮容器 */
+.chat-input-container {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+/* 输入框 */
+.chat-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+/* 发送按钮 */
+.chat-send {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}

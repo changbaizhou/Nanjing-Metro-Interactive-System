@@ -1,0 +1,6770 @@
+{
+  "type": "FeatureCollection",
+  "name": "text1",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "xy_coordinate_resolution": 1e-15,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "八卦洲大桥南",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "3 ",
+        "COUNT": null,
+        "公园景点": "二桥公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "八卦洲大桥南",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8382925948,
+        "3y": 32.1486404359
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.83829259484321,
+          32.148640435931924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "笆斗山",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "燕子矶滨江公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "笆斗山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8241358188,
+        "3y": 32.1454461481
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8241358188036,
+          32.145446148052336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "燕子矶",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "燕子矶公园",
+        "医疗卫生": "南京朗盛医院\r\n",
+        "查询专用站点名称": "燕子矶",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.816059314,
+        "3y": 32.138995205
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81605931401911,
+          32.13899520496241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "吉祥庵",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "伯乐园\r\n",
+        "医疗卫生": "南京太新医院\r\n",
+        "查询专用站点名称": "吉祥庵",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8161611408,
+        "3y": 32.1289847954
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81616114075153,
+          32.1289847954322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "7",
+        "COUNT": null,
+        "公园景点": "",
+        "医疗卫生": null,
+        "查询专用站点名称": "晓庄",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8133095988,
+        "3y": 32.1194170745
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81330959878221,
+          32.119417074486876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "迈皋桥",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "迈皋桥医院、栖霞区妇幼保健所、省中西医结合医院\r\n",
+        "查询专用站点名称": "迈皋桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8044518948,
+        "3y": 32.1048185995
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80445189477213,
+          32.104818599461865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "红山",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "红山动物园\r\n",
+        "医疗卫生": "武警医院\r\n",
+        "查询专用站点名称": "红山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7969720564,
+        "3y": 32.0980472043
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79697205638922,
+          32.09804720427958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": "",
+        "医疗卫生": null,
+        "查询专用站点名称": "南京站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7921611495,
+        "3y": 32.0906030295
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79216114954639,
+          32.09060302950795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "新模范",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "",
+        "医疗卫生": "爱贝尔宠物医院、中大医院(北院)\r\n",
+        "查询专用站点名称": "新模范",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7788530218,
+        "3y": 32.0819603646
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7788530218372,
+          32.081960364643656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "玄武门",
+        "换乘信息": "玄武湖公园\r\n",
+        "线路名称": "地铁1号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "",
+        "医疗卫生": "中大医院、江苏省肿瘤医院\r\n",
+        "查询专用站点名称": "玄武门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7788771587,
+        "3y": 32.0721639704
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77887715867053,
+          32.07216397040179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "7",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "鼓楼",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.778489364,
+        "3y": 32.0608288388
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77848936404723,
+          32.06082883884559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "珠江路",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "儿童医院\r\n",
+        "查询专用站点名称": "珠江路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7789012955,
+        "3y": 32.0531681092
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7789012955039,
+          32.05316810919413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "22",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "新街口",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7788940039,
+        "3y": 32.0437630523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77889400387875,
+          32.04376305232775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "张府园",
+        "换乘信息": "朝天宫\r\n",
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "四五四医院\r\n",
+        "查询专用站点名称": "张府园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7788489992,
+        "3y": 32.0327637062
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77884899918132,
+          32.032763706161035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "三山街",
+        "换乘信息": "甘熙故居、净觉寺、夫子庙\r\n",
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "秦淮医院\r\n",
+        "查询专用站点名称": "三山街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.776397627,
+        "3y": 32.0251542078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77639762702668,
+          32.02515420783324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "中华门",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "中华门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7692949346,
+        "3y": 32.0089312896
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76929493463773,
+          32.00893128961936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "安德门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7563969471,
+        "3y": 31.9935904233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75639694714452,
+          31.993590423259946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "天隆寺",
+        "换乘信息": "浡泥国王墓\r\n",
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "天隆寺",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7578551994,
+        "3y": 31.9813180146
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75785519941323,
+          31.981318014600497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 32,
+        "站点名称": "软件大道",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "软件大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7694002181,
+        "3y": 31.9786155447
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76940021808734,
+          31.97861554472324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 33,
+        "站点名称": "花神庙",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "花神庙",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7805178183,
+        "3y": 31.9796485572
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78051781834927,
+          31.979648557234157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 34,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南京南站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.7914955644,
+        "3y": 31.9732563559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79149556439614,
+          31.97325635589949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 35,
+        "站点名称": "双龙大道",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "双龙大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8120770213,
+        "3y": 31.9660726789
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81207702127917,
+          31.966072678908624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 36,
+        "站点名称": "河定桥",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "河定桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.814777852,
+        "3y": 31.9540166243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81477785199498,
+          31.954016624309162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 37,
+        "站点名称": "胜太路",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "湖滨社区卫生服务站\r\n",
+        "查询专用站点名称": "胜太路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8162817234,
+        "3y": 31.9458394795
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81628172340875,
+          31.945839479491863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 38,
+        "站点名称": "百家湖",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "百家湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.815790663,
+        "3y": 31.9339370469
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81579066295195,
+          31.933937046934464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 39,
+        "站点名称": "小龙湾",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "小龙湾",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8278216352,
+        "3y": 31.9318533116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.82782163516046,
+          31.931853311598015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 40,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "竹山路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8407063995,
+        "3y": 31.9344479949
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84070639945266,
+          31.93444799487639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 41,
+        "站点名称": "天印大道",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "方山风景区\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "天印大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8585435804,
+        "3y": 31.9397712543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8585435803978,
+          31.939771254297536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 42,
+        "站点名称": "龙眠大道",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "龙眠大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8719719665,
+        "3y": 31.9420595996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8719719664724,
+          31.942059599555055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 43,
+        "站点名称": "南医大",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南医大",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8849871167,
+        "3y": 31.9358392897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8849871167365,
+          31.935839289733977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 44,
+        "站点名称": "南京交院",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南京交院",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.8997129477,
+        "3y": 31.9152585296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.89971294766079,
+          31.915258529617578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 45,
+        "站点名称": "药科大学",
+        "换乘信息": null,
+        "线路名称": "地铁1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "药科大学",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "1_point",
+        "3x": 118.9090859882,
+        "3y": 31.8999011553
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.90908598819992,
+          31.89990115533742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "雨山路",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "老山国家森林公园",
+        "医疗卫生": "浦口区中心医院",
+        "查询专用站点名称": "雨山路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.610253864,
+        "3y": 32.0467752973
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.61025386398751,
+          32.04677529733948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "文德路",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "凤凰山公园",
+        "医疗卫生": "南京市肿瘤医院江北分院、浦口卫校门诊、浦口区妇幼保健所",
+        "查询专用站点名称": "文德路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.6218337032,
+        "3y": 32.0596079313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.62183370315866,
+          32.059607931277576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "龙华路",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京市浦口区中医院",
+        "查询专用站点名称": "龙华路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.6302554054,
+        "3y": 32.0668691325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.63025540535402,
+          32.06686913251652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "南工大",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南工大",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.643171732,
+        "3y": 32.0689015445
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.64317173195374,
+          32.06890154445092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "浦口万汇城",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "浦口万汇城",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.6513737368,
+        "3y": 32.064200553
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.65137373677328,
+          32.06420055300766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "临江",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "浦口青奥体育公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "临江",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.6603538335,
+        "3y": 32.0594605292
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6603538335459,
+          32.059460529159516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "江心洲",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "江心洲",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.6980867172,
+        "3y": 32.0335373338
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.69808671724908,
+          32.03353733384341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "绿博园",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "绿博园",
+        "医疗卫生": "建邺医院",
+        "查询专用站点名称": "绿博园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7117765589,
+        "3y": 32.0258325757
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71177655888546,
+          32.02583257572014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "梦都大街",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "梦都大街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7166539375,
+        "3y": 32.0176226686
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71665393746606,
+          32.01762266856295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "奥体中心",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "滨江公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "奥体中心",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7128126111,
+        "3y": 32.010712951
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71281261105544,
+          32.01071295099519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "元通",
+        "换乘信息": "地铁2号线、地铁10号线\r\n",
+        "线路名称": "地铁10号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "河西中央公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "元通",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7161005016,
+        "3y": 31.997360678
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7161005015892,
+          31.997360677964664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "中胜",
+        "换乘信息": "地铁7号线、地铁10号线\r\n",
+        "线路名称": "地铁10号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "明基医院",
+        "查询专用站点名称": "中胜",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7279105251,
+        "3y": 31.9899072853
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72791052506871,
+          31.989907285255008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "小行",
+        "换乘信息": null,
+        "线路名称": "地铁10号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "小行医院",
+        "查询专用站点名称": "小行",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7394903642,
+        "3y": 31.9844719048
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.73949036423991,
+          31.984471904793214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "安德门",
+        "换乘信息": "地铁1号线、地铁10号线\r\n",
+        "线路名称": "地铁10号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "菊花台公园",
+        "医疗卫生": "安德门卫生所",
+        "查询专用站点名称": "安德门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "10_point",
+        "3x": 118.7563969471,
+        "3y": 31.9935904233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75639694714452,
+          31.993590423259946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "鱼嘴",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "鱼嘴湿地公园\r\n",
+        "医疗卫生": "岱山社区医院\r\n",
+        "查询专用站点名称": "鱼嘴",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.6648734491,
+        "3y": 31.9689227331
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.66487344908145,
+          31.96892273313414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "天保街",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "明外廊-秦淮河百里风光带\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "天保街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.67309503,
+        "3y": 31.9680318049
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.67309502998772,
+          31.96803180491061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "青莲街",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "滨河公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "青莲街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.6868532765,
+        "3y": 31.9641635506
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.68685327653633,
+          31.964163550637576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "螺塘路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.6963556403,
+        "3y": 31.9626169842
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6963556403404,
+          31.962616984169177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "油坊桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7151368231,
+        "3y": 31.9664625483
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71513682308837,
+          31.96646254826461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "雨润大街",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "雨润大街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7174063529,
+        "3y": 31.9856990714
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7174063528733,
+          31.985699071441218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "元通",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7161005016,
+        "3y": 31.997360678
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7161005015892,
+          31.997360677964664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "奥体东",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "奥体东",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7236495417,
+        "3y": 32.0067439398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72364954168998,
+          32.00674393980981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "兴隆大街",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "建邺区中医医院\r\n",
+        "查询专用站点名称": "兴隆大街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7309257527,
+        "3y": 32.0177486385
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.73092575265922,
+          32.017748638480846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "集庆门",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "省妇幼保健医院\r\n",
+        "查询专用站点名称": "集庆门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7342679643,
+        "3y": 32.0305099757
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.73426796431819,
+          32.03050997568792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "云锦路",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "南京大居杀纪念馆\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "云锦路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7419740218,
+        "3y": 32.036907233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74197402184585,
+          32.03690723298136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "莫愁湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7538219327,
+        "3y": 32.0393868317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75382193267083,
+          32.0393868316645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "汉中门",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "乌龙潭公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "汉中门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7617983786,
+        "3y": 32.0447833724
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76179837860738,
+          32.044783372364044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "上海路",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "省人民医院、胸科医院、脑科医院、省中医院、省口腔医院、南京医科大学眼科医院、南医大友谊医院、市妇幼保健医院\r\n",
+        "查询专用站点名称": "上海路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7710161516,
+        "3y": 32.0442937378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77101615163787,
+          32.04429373779426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "新街口",
+        "换乘信息": "地铁1号线、地铁2号线\r\n",
+        "线路名称": "地铁2号线",
+        "出口数量": "22",
+        "COUNT": null,
+        "公园景点": "\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "新街口",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7788942752,
+        "3y": 32.0437624295
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77889427516996,
+          32.04376242946104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "大行宫",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.7896224647,
+        "3y": 32.0430685602
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78962246473937,
+          32.043068560165615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "西安门",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "西安门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8005761288,
+        "3y": 32.0424503719
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80057612875012,
+          32.04245037188552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "明故宫",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "午朝门公园、明故宫遗址公园、南京博物院\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "明故宫",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.814309244,
+        "3y": 32.0413750294
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81430924403035,
+          32.04137502940773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "站点名称": "苜蓿园",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "中山陵风景区、明孝陵、梅花山、中山植物园、海底世界\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "苜蓿园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8298949199,
+        "3y": 32.0422839512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.82989491988674,
+          32.0422839512417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "站点名称": "下马坊",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "下马坊遗址公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "下马坊",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8434266697,
+        "3y": 32.0396467725
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8434266697112,
+          32.03964677254767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "站点名称": "孝陵卫",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京钟山医院",
+        "查询专用站点名称": "孝陵卫",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8532281267,
+        "3y": 32.0376965773
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.85322812669075,
+          32.03769657731081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "站点名称": "钟灵街",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "灵谷寺公园\r\n",
+        "医疗卫生": "城东医院\r\n",
+        "查询专用站点名称": "钟灵街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8643736969,
+        "3y": 32.0413366239
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.86437369689736,
+          32.041336623868055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 23,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "马群",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8895544301,
+        "3y": 32.0518462847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.88955443011872,
+          32.05184628465983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 24,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "金马路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.9011804463,
+        "3y": 32.073950023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.90118044628873,
+          32.07395002303014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 25,
+        "站点名称": "仙鹤门",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "仙鹤门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.8998432546,
+        "3y": 32.0871462044
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.89984325458096,
+          32.087146204426965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "站点名称": "学则路",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "学则路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.9118071864,
+        "3y": 32.0935969771
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.91180718641816,
+          32.09359697709743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 27,
+        "站点名称": "仙林中心",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "仙林中心",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.9253993453,
+        "3y": 32.1009535016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.92539934525051,
+          32.10095350164516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 28,
+        "站点名称": "羊山公园",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "羊山公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "羊山公园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.9350271246,
+        "3y": 32.1060440822
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.93502712464803,
+          32.106044082158434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 29,
+        "站点名称": "南大",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南大",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.9541568304,
+        "3y": 32.1109011918
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.95415683037004,
+          32.110901191755644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 30,
+        "站点名称": "经天路",
+        "换乘信息": null,
+        "线路名称": "地铁2号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "经天路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "2_point",
+        "3x": 118.9715009916,
+        "3y": 32.1182962942
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.97150099163274,
+          32.11829629418781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "秣周东路",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "秣周东路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.8258650551,
+        "3y": 31.8709206178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8258650550643,
+          31.870920617825757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "东大九龙湖校区",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "东大九龙湖校区",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.8253496386,
+        "3y": 31.8980974768
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8253496385852,
+          31.89809747675726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "诚信大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.824695939,
+        "3y": 31.9113094056
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8246959390445,
+          31.911309405605202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "九龙湖",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "九龙湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.8159589983,
+        "3y": 31.9181280681
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81595899825305,
+          31.918128068085224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "天元西路",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "天元西路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.8034632871,
+        "3y": 31.9299608228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80346328712383,
+          31.92996082275101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "胜太西路",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "胜太西路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.802218745,
+        "3y": 31.9461017011
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80221874495955,
+          31.946101701055618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "宏运大道",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "宏运大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.79884968,
+        "3y": 31.9611518748
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79884967996179,
+          31.961151874820445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南京南站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7914955644,
+        "3y": 31.9732563559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79149556439614,
+          31.97325635589949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "明发广场",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "明发广场",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.795493186,
+        "3y": 31.9793133296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79549318598811,
+          31.979313329554312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "大明路",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "大明路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7946006352,
+        "3y": 31.9879928729
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79460063519316,
+          31.987992872860982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "卡子门",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "卡子门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7902384503,
+        "3y": 31.9971726756
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79023845030949,
+          31.9971726755711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "雨花门",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "雨花门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7872088057,
+        "3y": 32.0058078884
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78720880565696,
+          32.00580788843435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "武定门",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "老门东\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "武定门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7894464686,
+        "3y": 32.0157533659
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78944646860553,
+          32.015753365893886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "夫子庙",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "夫子庙、上海商业储存银行旧址、南京邮电局旧址\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "夫子庙",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7856625562,
+        "3y": 32.0261240807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78566255621969,
+          32.026124080650064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "常府街",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "郑和公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "常府街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7872842327,
+        "3y": 32.0355451718
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78728423269983,
+          32.035545171777954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "大行宫",
+        "换乘信息": "地铁2号线、地铁3号线\r\n",
+        "线路名称": "地铁3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "总统府、江宁织造府\r\n",
+        "医疗卫生": "八一医院\r\n",
+        "查询专用站点名称": "大行宫",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7896224647,
+        "3y": 32.0430685602
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78962246473937,
+          32.043068560165615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "浮桥站",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "东南大学医院\r\n",
+        "查询专用站点名称": "浮桥站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.791093288,
+        "3y": 32.0510708054
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79109328803216,
+          32.051070805430456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "鸡鸣寺",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7929663868,
+        "3y": 32.0596583222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79296638679065,
+          32.059658322200995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "站点名称": "新庄",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "南京国际展览中心\r\n",
+        "医疗卫生": "南京林业大学学校医院、玄武区新庄社区卫生服务站\r\n",
+        "查询专用站点名称": "新庄",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.8051981046,
+        "3y": 32.0788867482
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80519810461736,
+          32.07888674823452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "站点名称": "南京站",
+        "换乘信息": "地铁1号线、地铁3号线\r\n",
+        "线路名称": "地铁3号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": "玄武湖公园环湖路\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "南京站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7921611495,
+        "3y": 32.0906030295
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79216114954639,
+          32.09060302950795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "站点名称": "小市站",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "小市医院\r\n",
+        "查询专用站点名称": "小市站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7801815403,
+        "3y": 32.0975254057
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78018154031083,
+          32.097525405671355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "站点名称": "",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "五塘广场",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7725508595,
+        "3y": 32.1125720156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7725508595204,
+          32.1125720155768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 23,
+        "站点名称": "上元门",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "上元门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7647190405,
+        "3y": 32.117427292
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76471904054793,
+          32.11742729198176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 24,
+        "站点名称": "柳洲东路",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "滨江大道\r\n",
+        "医疗卫生": "明发诊所\r\n",
+        "查询专用站点名称": "柳洲东路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7410475875,
+        "3y": 32.1421681565
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74104758749668,
+          32.142168156468585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 25,
+        "站点名称": "天润城",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "120急救中心浦口医院天润城社区分点、天润中医门诊部\r\n",
+        "查询专用站点名称": "天润城",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7287907285,
+        "3y": 32.1529076905
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72879072852008,
+          32.15290769046576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "站点名称": "",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "泰冯路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7139316433,
+        "3y": 32.1556216437
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7139316433032,
+          32.15562164371492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 27,
+        "站点名称": "东大成贤学院",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "东大成贤学院",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.7027936154,
+        "3y": 32.1586335054
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.70279361535174,
+          32.1586335054333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 28,
+        "站点名称": "星火路",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "星火路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.6913790222,
+        "3y": 32.1595487512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6913790221754,
+          32.159548751157295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 29,
+        "站点名称": "林场",
+        "换乘信息": "",
+        "线路名称": "地铁3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京花旗医院",
+        "查询专用站点名称": "林场",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "3_point",
+        "3x": 118.6660607497,
+        "3y": 32.1657210976
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.66606074969754,
+          32.16572109763992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "龙江站",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "郑和宝船遗址公园",
+        "医疗卫生": "江苏省妇幼保健院",
+        "查询专用站点名称": "龙江站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.7346028482,
+        "3y": 32.0600737202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.73460284817129,
+          32.06007372022696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "草场门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.7501742543,
+        "3y": 32.0622819784
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75017425428936,
+          32.06228197842267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "云南路",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "云南路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.7693341964,
+        "3y": 32.0611692155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76933419640554,
+          32.06116921554731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "鼓楼",
+        "换乘信息": "地铁1号线、地铁4号线\r\n",
+        "线路名称": "地铁4号线",
+        "出口数量": "7",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "鼓楼医院、京公安消防医院、南京市口腔医院",
+        "查询专用站点名称": "鼓楼站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.778489364,
+        "3y": 32.0608288388
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77848936404723,
+          32.06082883884559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "鸡鸣寺",
+        "换乘信息": "地铁3号线、地铁4号线\r\n",
+        "线路名称": "地铁4号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "鸡鸣寺、北极阁公园、北极阁公园",
+        "医疗卫生": "市级机关医院",
+        "查询专用站点名称": "鸡鸣寺",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.7929663868,
+        "3y": 32.0596583222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79296638679065,
+          32.059658322200995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "九华山",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "九华山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.8005637194,
+        "3y": 32.0594978643
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8005637194228,
+          32.05949786429137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "岗子村",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "白马公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "岗子村",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.8105524033,
+        "3y": 32.0674324194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81055240327393,
+          32.06743241942226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "蒋王庙",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "紫金山登山道、明岐阳王陵园、明孝陵徐达墓\r\n",
+        "医疗卫生": "中国中医科学学院皮肤病医院、樱驼花园社区医院",
+        "查询专用站点名称": "蒋王庙",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.8261285462,
+        "3y": 32.0797107632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.82612854620848,
+          32.079710763213235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "王家湾",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "南京抗日航空烈士纪念馆\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "王家湾",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.8327258797,
+        "3y": 32.0873591814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.83272587965627,
+          32.08735918141564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "聚宝山",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "聚宝山公园\r\n",
+        "医疗卫生": null,
+        "查询专用站点名称": "聚宝山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.8590669389,
+        "3y": 32.0958793919
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.85906693888232,
+          32.09587939193738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "徐庄站",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "徐庄站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.8860677316,
+        "3y": 32.0867047965
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.88606773163282,
+          32.08670479648415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "金马路",
+        "换乘信息": "地铁2号线、地铁4号线\r\n",
+        "线路名称": "地铁4号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "金马路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.9011804463,
+        "3y": 32.073950023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.90118044628873,
+          32.07395002303014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "汇通路",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "汇通路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.928242391,
+        "3y": 32.0808083029
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.92824239095388,
+          32.080808302925846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "灵山站",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "灵山站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.9384923938,
+        "3y": 32.0799698116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.93849239382284,
+          32.079969811646755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "东流站",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "东流站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.9591458309,
+        "3y": 32.0793627465
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.9591458309129,
+          32.07936274654971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "孟北站",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "孟北站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.9822452961,
+        "3y": 32.0866189238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.98224529608002,
+          32.08661892380686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "桦墅站",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "桦墅站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.9912871502,
+        "3y": 32.1009979524
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.99128715023174,
+          32.10099795244509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "仙林湖",
+        "换乘信息": null,
+        "线路名称": "地铁4号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "仙林湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "4_point",
+        "3x": 118.9872533238,
+        "3y": 32.1275416234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.98725332383891,
+          32.12754162337859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": null,
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "吉印大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.7902866117,
+        "3y": 31.8881801928
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7902866116868,
+          31.888180192814257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "九龙湖南",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "九龙湖南",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.8050331712,
+        "3y": 31.894993026
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80503317123627,
+          31.89499302601502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "诚信大道",
+        "换乘信息": "地铁3号线、地铁5号线\r\n",
+        "线路名称": "地铁5号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京江乔中西医结合医院",
+        "查询专用站点名称": "诚信大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.824695939,
+        "3y": 31.9113094056
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8246959390445,
+          31.911309405605202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "前庄",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "前庄",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.8387075276,
+        "3y": 31.9124325747
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.83870752757124,
+          31.91243257467312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "科宁路",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "科宁路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.845136947,
+        "3y": 31.9249620488
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84513694702778,
+          31.924962048773242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "竹山路",
+        "换乘信息": "地铁1号线、地铁5号线\r\n",
+        "线路名称": "地铁5号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京享悦医院",
+        "查询专用站点名称": "竹山路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.8407063995,
+        "3y": 31.9344479949
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84070639945266,
+          31.93444799487639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "新亭路",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "新亭路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.840486703,
+        "3y": 31.9447874155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84048670297518,
+          31.94478741546068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "东山",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": null,
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "东山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.8438342884,
+        "3y": 31.9533252245
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84383428837339,
+          31.9533252244885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "文靖路",
+        "换乘信息": null,
+        "线路名称": "地铁5号线",
+        "出口数量": null,
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "文靖路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "5_point",
+        "3x": 118.8352780643,
+        "3y": 31.9644221204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.83527806434536,
+          31.964422120449267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "西善桥",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "建宁公园、六朝古都遗址公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "西善桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.6848392366,
+        "3y": 31.9485088991
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.68483923660136,
+          31.94850889913129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "螺塘路",
+        "换乘信息": "地铁2号线、地铁7号线\r\n",
+        "线路名称": "地铁7号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "螺塘路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.6963556403,
+        "3y": 31.9626169842
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6963556403404,
+          31.962616984169177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "太清路",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "太清路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.6979883113,
+        "3y": 31.9687482008
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.69798831130127,
+          31.968748200802374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "7",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "永初路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7071280315,
+        "3y": 31.9761253167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.70712803151335,
+          31.976125316672114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "嘉陵江东路",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "嘉陵江东路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7225468399,
+        "3y": 31.984072039
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72254683991581,
+          31.984072038993748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "中胜",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7279105251,
+        "3y": 31.9899072853
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72791052506871,
+          31.989907285255008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "新城科技园",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "7",
+        "COUNT": null,
+        "公园景点": "奥体中心、江苏大剧、南京眼",
+        "医疗卫生": null,
+        "查询专用站点名称": "新城科技园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7333000476,
+        "3y": 31.9961860328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.73330004756588,
+          31.996186032843116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "梦都大街东",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "江苏现代美术馆",
+        "医疗卫生": null,
+        "查询专用站点名称": "梦都大街东",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7409458542,
+        "3y": 32.0056351258
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74094585418909,
+          32.005635125766936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "应天大街",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "江苏省绿色建筑与生态智慧城区展示中心、夫子庙秦淮风光带",
+        "医疗卫生": null,
+        "查询专用站点名称": "应天大街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7438659879,
+        "3y": 32.018372626
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74386598792024,
+          32.01837262600798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "站点名称": "南湖",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "南湖公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "南湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7492512659,
+        "3y": 32.0259635997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74925126587763,
+          32.02596359974356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "站点名称": "大士茶亭",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "莫愁湖公园、南京市博物馆",
+        "医疗卫生": null,
+        "查询专用站点名称": "大士茶亭",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7521237512,
+        "3y": 32.0336226258
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75212375116952,
+          32.03362262581279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "站点名称": "莫愁湖",
+        "换乘信息": "地铁2号线、地铁7号线\r\n",
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "莫愁湖公园、汉西门城墙",
+        "医疗卫生": null,
+        "查询专用站点名称": "莫愁湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7538219327,
+        "3y": 32.0393868317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75382193267083,
+          32.0393868316645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 23,
+        "站点名称": "清凉山",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "清凉山公园、乌龙潭公园、南京石头城遗址公园、南京国防园",
+        "医疗卫生": "江苏省人民医院、南京市胸科医院",
+        "查询专用站点名称": "清凉山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7544349457,
+        "3y": 32.0505094081
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75443494571564,
+          32.05050940805756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 24,
+        "站点名称": "草场门",
+        "换乘信息": "地铁4号线",
+        "线路名称": "地铁7号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": "杏林公园、江苏科技馆、北京西路77号建筑群",
+        "医疗卫生": "华侨路社区卫生服务中心",
+        "查询专用站点名称": "草场门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7501742543,
+        "3y": 32.0622819784
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75017425428936,
+          32.06228197842267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 25,
+        "站点名称": "古平岗",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "古林公园、牛顿公园",
+        "医疗卫生": "南京政治学院医院、回龙桥社区卫生服务站、三五O三公司职工医院",
+        "查询专用站点名称": "古平岗",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7525660313,
+        "3y": 32.0729947385
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75256603130977,
+          32.07299473851295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "站点名称": "福建路",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "绣球公园、阅江楼景区、小桃园",
+        "医疗卫生": "南京医科大学第二附属医院(萨家湾院区)、天佑儿童医院、挹江门社区卫生服务中心、怡悦医院、南京政治学院医院",
+        "查询专用站点名称": "福建路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7543193864,
+        "3y": 32.0819552255
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75431938643749,
+          32.08195522547462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 27,
+        "站点名称": "钟阜路",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "南京城墙城北段遗迹、玄武湖",
+        "医疗卫生": "南京市第二医院、南京股骨髋骨科医院",
+        "查询专用站点名称": "钟阜路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7664201416,
+        "3y": 32.0930431468
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7664201415739,
+          32.09304314675455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 28,
+        "站点名称": "幕府西路",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京医科大学附属口腔医院(江苏省口腔医院)第七门诊部",
+        "查询专用站点名称": "幕府西路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7663833897,
+        "3y": 32.1083395027
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76638338969897,
+          32.10833950271373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 29,
+        "站点名称": "五塘广场",
+        "换乘信息": "地铁3号线、地铁7号线\r\n",
+        "线路名称": "地铁7号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "五塘广场",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7725508595,
+        "3y": 32.1125720156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7725508595204,
+          32.1125720155768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 30,
+        "站点名称": "幕府山",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "幕府山",
+        "医疗卫生": "幕府山社区卫生服务中心",
+        "查询专用站点名称": "幕府山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.7933839471,
+        "3y": 32.1165539066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7933839470909,
+          32.11655390664575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 31,
+        "站点名称": "晓庄",
+        "换乘信息": "地铁1号线、地铁7号线\r\n",
+        "线路名称": "地铁7号线",
+        "出口数量": "7",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "燕子矶社区卫生服务中心",
+        "查询专用站点名称": "晓庄",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.8133095988,
+        "3y": 32.1194170745
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81330959878221,
+          32.119417074486876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 32,
+        "站点名称": "万寿",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "寅春路海绵湿地公园",
+        "医疗卫生": "南京万寿医院",
+        "查询专用站点名称": "万寿",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.8294686567,
+        "3y": 32.121847538
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.829468656708,
+          32.12184753803213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 33,
+        "站点名称": "丁家庄",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京市妇幼保健院丁家庄院区",
+        "查询专用站点名称": "丁家庄",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.8450707286,
+        "3y": 32.1136069412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84507072861493,
+          32.113606941246445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 34,
+        "站点名称": "丁家庄南",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "丁家庄南",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.8550837631,
+        "3y": 32.109833086
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.85508376309846,
+          32.10983308602209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 35,
+        "站点名称": "尧化新村",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南京鹏敞龄奔市栖激缠艾败雷区医院",
+        "查询专用站点名称": "尧化新村",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.8702450092,
+        "3y": 32.1172739656
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.87024500923762,
+          32.11727396563016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 36,
+        "站点名称": "尧化门",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "姚坊门文体公园、新城公园",
+        "医疗卫生": "栖霞区妇幼保健所",
+        "查询专用站点名称": "尧化门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.882572377,
+        "3y": 32.1247275713
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.88257237698085,
+          32.12472757131208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 37,
+        "站点名称": "仙新路",
+        "换乘信息": null,
+        "线路名称": "地铁7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "尧化街道王子楼社区卫生服务中心",
+        "查询专用站点名称": "仙新路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "7_point",
+        "3x": 118.8912471912,
+        "3y": 32.1295140924
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.89124719118561,
+          32.129514092368616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "",
+        "换乘信息": "",
+        "线路名称": "地铁S1号线",
+        "出口数量": null,
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南京南站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.7914955644,
+        "3y": 31.9732563559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79149556439614,
+          31.97325635589949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "翠屏山",
+        "换乘信息": null,
+        "线路名称": "地铁S1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "南航附属医院",
+        "查询专用站点名称": "翠屏山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.7793810363,
+        "3y": 31.944692687
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7793810362898,
+          31.94469268699141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "河海大学·佛城西路",
+        "换乘信息": null,
+        "线路名称": "地铁S1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "河海大学·佛城西路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.7861295751,
+        "3y": 31.9161249204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.78612957506454,
+          31.91612492037119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "吉印大道",
+        "换乘信息": "地铁5号线、地铁S1号线\r\n",
+        "线路名称": "地铁S1号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "吉印大道",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.7902866117,
+        "3y": 31.8881801928
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7902866116868,
+          31.888180192814257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "正方中路",
+        "换乘信息": null,
+        "线路名称": "地铁S1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "正方中路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.800653038,
+        "3y": 31.8469261826
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8006530380132,
+          31.846926182583207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "翔宇路北",
+        "换乘信息": null,
+        "线路名称": "地铁S1号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "翔宇路北",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.8164050226,
+        "3y": 31.7930577544
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81640502257135,
+          31.79305775438793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "",
+        "换乘信息": null,
+        "线路名称": "地铁S1号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "翔宇路南",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.8240971706,
+        "3y": 31.7568643009
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.82409717058516,
+          31.756864300923493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "禄口机场",
+        "换乘信息": null,
+        "线路名称": "地铁S1号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "禄口机场",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S1_point",
+        "3x": 118.868045707,
+        "3y": 31.7321399645
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8680457070466,
+          31.732139964514047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "景明佳园",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "景明佳园",
+        "排序": 2,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7733897261,
+        "3y": 31.9642507606
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77338972609566,
+          31.964250760614846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "铁心桥",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "铁心桥",
+        "排序": 3,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7585508952,
+        "3y": 31.966486667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.75855089519344,
+          31.966486666983194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "春江路",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "春江路",
+        "排序": 4,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7427943625,
+        "3y": 31.9641631239
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74279436246496,
+          31.964163123854757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "贾西站",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "江苏省第二中医院西善桥院区",
+        "查询专用站点名称": "贾西站",
+        "排序": 5,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7289728934,
+        "3y": 31.9612995647
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.728972893385,
+          31.961299564688286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "油坊桥",
+        "换乘信息": "地铁2号线、地铁S3号线\r\n",
+        "线路名称": "地铁S3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "建邺区莲花社区卫生服务中心",
+        "查询专用站点名称": "油坊桥",
+        "排序": 6,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7151368231,
+        "3y": 31.9664625483
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71513682308837,
+          31.96646254826461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "永初路",
+        "换乘信息": "地铁7号线、地铁S3号线\r\n",
+        "线路名称": "地铁S3号线",
+        "出口数量": null,
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "永初路",
+        "排序": 7,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7071280315,
+        "3y": 31.9761253167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.70712803151335,
+          31.976125316672114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "平良大街",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "河西儿童医院",
+        "查询专用站点名称": "平良大街",
+        "排序": 8,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.6976197631,
+        "3y": 31.9799495357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.69761976308293,
+          31.979949535692903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "吴侯街",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "河西城市生态公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "吴侯街",
+        "排序": 9,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.687830772,
+        "3y": 31.97756231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.68783077202453,
+          31.977562310035513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "高庙路",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "高庙路",
+        "排序": 10,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.6830183668,
+        "3y": 31.9701265638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.68301836679181,
+          31.97012656379467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "天保站",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "天保站",
+        "排序": 11,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.6722949527,
+        "3y": 31.9552982044
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.67229495266643,
+          31.955298204354083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "刘村站",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "刘村站",
+        "排序": 12,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.6600417471,
+        "3y": 31.9464360095
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.66004174713811,
+          31.946436009520006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "马骡圩",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "马骡圩",
+        "排序": 13,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5833249652,
+        "3y": 31.9752810841
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.58332496520582,
+          31.975281084075704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "兰花塘",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "兰花塘",
+        "排序": 14,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5697170724,
+        "3y": 31.9604065039
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.56971707238127,
+          31.9604065039434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "双垅站",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "双垅站",
+        "排序": 15,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5624305128,
+        "3y": 31.9504382264
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.56243051281993,
+          31.950438226354052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "石碛河",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "石碛河",
+        "排序": 16,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5529868908,
+        "3y": 31.9401528407
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.55298689075063,
+          31.94015284072488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "桥林新城",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "桥林新城",
+        "排序": 17,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5423887781,
+        "3y": 31.9320084787
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.54238877813266,
+          31.932008478712312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "站点名称": "林山站",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "林山站",
+        "排序": 18,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5260023036,
+        "3y": 31.9209401922
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.52600230360787,
+          31.92094019222119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "站点名称": "高家冲",
+        "换乘信息": null,
+        "线路名称": "地铁S3号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "高家冲",
+        "排序": 19,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.5120739404,
+        "3y": 31.9112349982
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.51207394039896,
+          31.91123499818229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "站点名称": "南京南站",
+        "换乘信息": "地铁1号线，地铁3号线，地铁S1号线\r\n",
+        "线路名称": "地铁S3号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "南京南站",
+        "排序": 1,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S3_point",
+        "3x": 118.7914955644,
+        "3y": 31.9732563559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.79149556439614,
+          31.97325635589949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "马群",
+        "换乘信息": "地铁2号线、地铁S6号线\r\n",
+        "线路名称": "地铁S6号线",
+        "出口数量": "6",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "马群",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 118.8895544301,
+        "3y": 32.0518462847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.88955443011872,
+          32.05184628465983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "百水桥",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "江宁区麒麟街道社区卫生服务中心、南京江宁丹溪中医医院、百水桥医院南京江宁丹溪中医医院",
+        "查询专用站点名称": "百水桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 118.9099525004,
+        "3y": 32.0556314313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.90995250042803,
+          32.05563143127544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "麒麟门",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "奇石公园、棋麟门步行街广场、南湾营公园、牛头山、小牛头山公园",
+        "医疗卫生": "南京江宁丹溪中医医院、棋麟街道步行街社区卫生服务中心站",
+        "查询专用站点名称": "麒麟门",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 118.9229709556,
+        "3y": 32.0553377035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.92297095559408,
+          32.05533770348613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "东郊小镇",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "江宁麒麟社区口腔诊所",
+        "查询专用站点名称": "东郊小镇",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 118.9477476859,
+        "3y": 32.0539706684
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.94774768588944,
+          32.05397066842481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "古泉",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "汤山欢乐水世界",
+        "医疗卫生": "南京市公共卫生医疗中心(南京市第二医院)",
+        "查询专用站点名称": "古泉",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.0039953632,
+        "3y": 32.0511497966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.0039953632313,
+          32.05114979655792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "猿人洞",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "汤山温泉房车露营地、南京古猿人洞景区、汤山温泉房车露营地",
+        "医疗卫生": null,
+        "查询专用站点名称": "猿人洞",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.0469871679,
+        "3y": 32.0634187707
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.04698716786402,
+          32.063418770736554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "汤山",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "汤泉湖公园、金乌公园",
+        "医疗卫生": "汤山医院、东部战区总医院汤山分院",
+        "查询专用站点名称": "汤山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.0624288222,
+        "3y": 32.0496368274
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.0624288222208,
+          32.04963682739005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "泉都大街",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "汤水河公园",
+        "医疗卫生": null,
+        "查询专用站点名称": "泉都大街",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.0468401676,
+        "3y": 32.0357765613
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.04684016755093,
+          32.03577656134793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "黄梅",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "黄梅卫生院",
+        "查询专用站点名称": "黄梅",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.1106592719,
+        "3y": 32.0099625271
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1106592719088,
+          32.00996252714602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "童世界",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "恒大文化旅游城",
+        "医疗卫生": null,
+        "查询专用站点名称": "童世界",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.1583148744,
+        "3y": 31.9936255416
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.15831487437517,
+          31.993625541550205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "华阳",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "华阳",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.1748737239,
+        "3y": 31.9743414547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.17487372392488,
+          31.974341454663477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "崇明",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "崇明公园",
+        "医疗卫生": "句容市人民医院、句容市中医院",
+        "查询专用站点名称": "崇明",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.1734358634,
+        "3y": 31.9454477099
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.17343586341316,
+          31.945447709916067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "句容",
+        "换乘信息": null,
+        "线路名称": "地铁S6号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "江苏省人民医院句容分院",
+        "查询专用站点名称": "句容",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S6_point",
+        "3x": 119.1644582289,
+        "3y": 31.9245794257
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.16445822892273,
+          31.924579425652038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "空港新城江宁",
+        "换乘信息": "地铁S1号线、地铁S7号线\r\n",
+        "线路名称": "地铁S7号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "空港新城江宁",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 118.8829262854,
+        "3y": 31.7400240192
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.88292628535501,
+          31.740024019159975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "柘塘",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "柘塘",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 118.9328339067,
+        "3y": 31.7588300351
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.93283390674648,
+          31.758830035099592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "空港溧水站",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "空港溧水站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 118.9843908332,
+        "3y": 31.7357981602
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.98439083320292,
+          31.735798160180995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "站点名称": "群力",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "群力",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 119.0092181216,
+        "3y": 31.7227990746
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.00921812158079,
+          31.722799074621108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "卧龙湖",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "卧龙湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 119.0379145967,
+        "3y": 31.6880984963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.03791459671946,
+          31.688098496325004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "溧水",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "溧水区中医院(在建)",
+        "查询专用站点名称": "溧水",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 119.0393332989,
+        "3y": 31.6634298792
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.03933329886114,
+          31.663429879248877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "中山湖",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "秦淮源公园",
+        "医疗卫生": "南京市溧水区中医院",
+        "查询专用站点名称": "中山湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 119.0398169473,
+        "3y": 31.6485267512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.03981694731853,
+          31.648526751150143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "幸庄",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": "溧水体育公园、溧水幸庄公园",
+        "医疗卫生": "溧水区人民医院",
+        "查询专用站点名称": "幸庄",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 119.0408164875,
+        "3y": 31.626510761
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.04081648746381,
+          31.62651076095724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "无想山",
+        "换乘信息": null,
+        "线路名称": "地铁S7号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "无想山风景区",
+        "医疗卫生": null,
+        "查询专用站点名称": "无想山",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S7_point",
+        "3x": 119.0410744333,
+        "3y": 31.6130570307
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.04107443330777,
+          31.61305703069935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "站点名称": "长江大桥北",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "长江大桥北",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.725266016,
+        "3y": 32.1290875114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72526601602634,
+          32.12908751138269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "站点名称": "毛纺厂路",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "5",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "毛纺厂路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7214825788,
+        "3y": 32.1365536572
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72148257884928,
+          32.13655365718863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "泰山新村",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "泰山新村",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7108599566,
+        "3y": 32.146596096
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71085995659709,
+          32.146596096002156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "泰冯路",
+        "换乘信息": "地铁3号线、地铁S8号线\r\n",
+        "线路名称": "地铁S8号线",
+        "出口数量": "8",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "泰冯路",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7139316433,
+        "3y": 32.1556216437
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7139316433032,
+          32.15562164371492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "高新开发区",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "沿江医院、高新医院",
+        "查询专用站点名称": "高新开发区",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7143649071,
+        "3y": 32.1797951139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.71436490705292,
+          32.179795113922005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "信息工程大学",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "信息工程大学",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.721750293,
+        "3y": 32.2046493211
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.72175029297358,
+          32.20464932113583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "卸甲甸",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "大厂医院门诊部",
+        "查询专用站点名称": "卸甲甸",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7254067272,
+        "3y": 32.2169468281
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7254067272341,
+          32.21694682813528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "大厂",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "葛塘街道社区卫生服务中心、葛塘医院、南京江北人民医院",
+        "查询专用站点名称": "大厂",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7348239281,
+        "3y": 32.230857072
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.73482392805428,
+          32.230857071976665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "站点名称": "葛塘",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "葛塘",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7486084117,
+        "3y": 32.246700212
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.74860841169739,
+          32.24670021196391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "站点名称": "长芦站",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "1",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "长芦站",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7714774105,
+        "3y": 32.2755642615
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.77147741048513,
+          32.275564261505856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "站点名称": "化工园",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "1",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "化工园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.7803751821,
+        "3y": 32.2874793315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7803751820518,
+          32.287479331477726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "站点名称": "六合开发区",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "1",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "六合开发区",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.8001877296,
+        "3y": 32.3072776022
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.80018772956063,
+          32.307277602181024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "站点名称": "龙池",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "龙池湖",
+        "医疗卫生": null,
+        "查询专用站点名称": "龙池",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.8148997678,
+        "3y": 32.3210052647
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.81489976775205,
+          32.32100526465043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "站点名称": "雄州",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": "滁河观光带",
+        "医疗卫生": null,
+        "查询专用站点名称": "雄州",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.8317103243,
+        "3y": 32.336881082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.83171032434608,
+          32.33688108204581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "站点名称": "凤凰山公园",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "凤凰山公园",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.8401314849,
+        "3y": 32.3492818046
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.84013148485734,
+          32.349281804588124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "站点名称": "方州广场",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "方州广场",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.8449774979,
+        "3y": 32.3615751038
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8449774978615,
+          32.361575103771315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "站点名称": "沈桥",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "六合区长山社区卫生服务分中心",
+        "查询专用站点名称": "沈桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.8870001425,
+        "3y": 32.4022869301
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.88700014247354,
+          32.402286930107714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "站点名称": "八百桥",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": "桂子山烈士陵园、国家地质公园",
+        "医疗卫生": "金牛湖社区医院",
+        "查询专用站点名称": "八百桥",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.9282104289,
+        "3y": 32.4292708989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.92821042889607,
+          32.42927089892727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "站点名称": "金牛湖",
+        "换乘信息": null,
+        "线路名称": "地铁S8号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": "金牛湖风景区",
+        "医疗卫生": null,
+        "查询专用站点名称": "金牛湖",
+        "排序": null,
+        "POINT_X": null,
+        "POINT_Y": null,
+        "POINT_Z": null,
+        "POINT_M": null,
+        "layer": "S8_point",
+        "3x": 118.9597129311,
+        "3y": 32.467553308
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.95971293106358,
+          32.46755330796731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "站点名称": "翔宇路南",
+        "换乘信息": "地铁S1号线、地铁S9号线\r\n",
+        "线路名称": "地铁S9号线",
+        "出口数量": "4",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "翔宇路南",
+        "排序": null,
+        "POINT_X": 13227437.991,
+        "POINT_Y": 3731437.432400003,
+        "POINT_Z": 0,
+        "POINT_M": "NaN",
+        "layer": "S9_point",
+        "3x": 118.8240971706,
+        "3y": 31.7568643009
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.82409717058516,
+          31.756864300923493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "站点名称": "铜山站",
+        "换乘信息": null,
+        "线路名称": "地铁S9号线",
+        "出口数量": "1",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "铜山医院",
+        "查询专用站点名称": "铜山站",
+        "排序": null,
+        "POINT_X": 13233290.921500001,
+        "POINT_Y": 3723766.033200003,
+        "POINT_Z": 0,
+        "POINT_M": "NaN",
+        "layer": "S9_point",
+        "3x": 118.8766749398,
+        "3y": 31.6982494836
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.87667493983555,
+          31.698249483629425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "站点名称": "石湫站",
+        "换乘信息": null,
+        "线路名称": "地铁S9号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "石湫站",
+        "排序": null,
+        "POINT_X": 13236148.311900001,
+        "POINT_Y": 3716483.837200001,
+        "POINT_Z": 0,
+        "POINT_M": "NaN",
+        "layer": "S9_point",
+        "3x": 118.9023433145,
+        "3y": 31.6425741652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.90234331452572,
+          31.642574165226517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "站点名称": "明觉站",
+        "换乘信息": null,
+        "线路名称": "地铁S9号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "明觉站",
+        "排序": null,
+        "POINT_X": 13235576.9051,
+        "POINT_Y": 3704179.0100999996,
+        "POINT_Z": 0,
+        "POINT_M": "NaN",
+        "layer": "S9_point",
+        "3x": 118.8972102799,
+        "3y": 31.5484230239
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8972102799068,
+          31.548423023943673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "站点名称": "团结圩站",
+        "换乘信息": null,
+        "线路名称": "地铁S9号线",
+        "出口数量": "2",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": null,
+        "查询专用站点名称": "团结圩站",
+        "排序": null,
+        "POINT_X": 13233959.7069,
+        "POINT_Y": 3684511.565700002,
+        "POINT_Z": 0,
+        "POINT_M": "NaN",
+        "layer": "S9_point",
+        "3x": 118.8826827413,
+        "3y": 31.3977389827
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8826827413017,
+          31.39773898271837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "站点名称": "高淳站",
+        "换乘信息": null,
+        "线路名称": "地铁S9号线",
+        "出口数量": "3",
+        "COUNT": null,
+        "公园景点": null,
+        "医疗卫生": "高淳区中医院",
+        "查询专用站点名称": "高淳站",
+        "排序": null,
+        "POINT_X": 13232794.5429,
+        "POINT_Y": 3677379.0075000003,
+        "POINT_Z": 0,
+        "POINT_M": "NaN",
+        "layer": "S9_point",
+        "3x": 118.872215895,
+        "3y": 31.3430322981
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.87221589500464,
+          31.34303229812991
+        ]
+      }
+    }
+  ]
+}

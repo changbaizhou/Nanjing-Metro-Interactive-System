@@ -1,0 +1,201 @@
+/* 重置html和body的高度为100%，去除默认边距 */
+html, body {
+  height: 100%;      /* 让html和body充满整个浏览器高度 */
+  margin: 0;         /* 去除默认的外边距 */
+  font-family: Arial, sans-serif; /* 统一字体 */
+  background-color: #021b35;  /* 深蓝色背景 */
+}
+
+/* 页面整体容器，垂直排列结构，撑满视口高度 */
+.page-wrapper {
+  display: flex;             /* 使用flex布局 */
+  flex-direction: column;   /* 子元素垂直排列 */
+  height: 100vh;            /* 高度设为视口高度 */
+}
+
+/* 页眉样式 */
+header {
+  background-color: #004080;       /* 深蓝色背景 */
+  color: #00eaff;                  /* 亮蓝色字体 */
+  padding: 1.2em;                  /* 内边距 */
+  display: flex;                   /* 使用flex布局 */
+  align-items: center;             /* 垂直居中 */
+  justify-content: space-between; /* 左右两边元素分散排列 */
+  flex-shrink: 0;                  /* 不允许收缩 */
+}
+
+/* 页眉标题样式 */
+header h1 {
+  margin: 0;               /* 取消默认外边距 */
+  font-size: 1.8em;        /* 字体大小 */
+  flex: 1;                 /* 占据剩余空间 */
+  text-align: center;      /* 文字居中 */
+  font-weight: 600;        /* 字体加粗 */
+}
+
+/* 返回主页按钮样式 */
+.btn-return {
+  margin-right: 20px;              /* 右外边距 */
+  padding: 10px 15px;               /* 内边距 */
+  background-color: #00bfff;        /* 天蓝色背景 */
+  color: white;                     /* 白色字体 */
+  border: 2px solid #00bfff;       /* 同色系蓝色边框 */
+  border-radius: 5px;              /* 圆角边框 */
+  cursor: pointer;                 /* 鼠标变成手型 */
+  font-size: 14px;                 /* 确保字体大小一致 */
+  box-sizing: border-box;          /* 包括边框和内边距在内 */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* 鼠标悬停时的效果 */
+.btn-return:hover {
+  background-color: #ff6600;       /* 橙色背景 */
+  border-color: #ff6600;           /* 橙色边框 */
+}
+
+/* 主体区域左右分栏 */
+.main-container {
+  flex: 1;                 /* 占据剩余高度 */
+  display: flex;           /* 水平排列子元素 */
+  overflow: hidden;        /* 溢出隐藏 */
+  width: 100%; 
+}
+
+/* 左侧按钮栏，占25%宽 */
+.sidebar {
+  width: 15%;                     /* 宽度占容器25% */
+  background-color: #001b2e;      /* 深蓝色背景 */
+  border-right: 1px solid #004080;   /* 深蓝色边框 */
+  padding: 20px;                  /* 内边距 */
+  box-sizing: border-box;         /* 包含内边距和边框 */
+  overflow-y: auto;               /* 内容超出可滚动 */
+}
+
+/* 左侧标题去除顶部间距 */
+.sidebar h3 {
+  margin-top: 0;                  /* 取消上边距 */
+  color: #00eaff;                 /* 亮蓝色 */
+}
+
+/* 左侧按钮样式 */
+.sidebar button {
+  display: flex;              /* 变成flex容器 */
+  align-items: center;        /* 垂直居中 */
+  justify-content: center;    /* 水平居中 */
+  width: 100%;                 
+  margin: 8px 0;
+  padding: 12px;               /* 保持原来的内边距 */
+  background-color: #004080;  /* 深蓝色背景 */
+  color: white;                /* 白色字体 */
+  border: 2px solid transparent; /* 默认边框透明 */
+  border-radius: 4px;
+  cursor: pointer;
+  gap: 8px;                    /* 图标和文字间距 */
+  font-size: 14px;             /* 确保字体大小一致 */
+  box-sizing: border-box;      /* 包括内边距和边框在内 */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: #ffcc00;     /* 黄色背景 */
+  color: white;
+  border-color: #ffcc00;         /* 黄色边框 */
+}
+
+/* 左侧按钮图标 */
+.sidebar button .icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
+}
+
+/* 右侧区域，占75%宽，垂直布局 */
+.right-container {
+  width: 20%;                   /* 宽度占容器75% */
+  display: flex;                /* flex布局 */
+  flex-direction: column;       /* 子元素垂直排列 */
+  box-sizing: border-box;       /* 包含内边距和边框 */
+  padding: 10px;                /* 内边距 */
+  overflow: hidden;             /* 溢出隐藏 */
+}
+
+/* 右上地图区域，占用右侧高度一半 */
+.map-area {
+  flex: 1;                     /* 占用一半高度 */
+  background: #005083;         /* 深蓝色 */
+  border-radius: 10px;         /* 圆角 */
+  margin-bottom: 10px;         /* 下方间距 */
+  overflow: hidden;            /* 溢出隐藏 */
+  position: relative;          /* 使子元素绝对定位基于此 */
+}
+
+/* 时刻表图片容器 */
+#image-container {
+  width: 100%;
+  height: 70vh;              /* 高度为视口的 70% */
+  overflow: hidden;          /* 隐藏超出内容 */
+  position: relative;        /* 用于子元素定位 */
+  display: flex;             /* 启用 flex 布局 */
+  justify-content: center;   /* 水平居中 */
+  align-items: center;       /* 垂直居中 */
+  background: #ffffff;       /* 深蓝色背景 */
+  border-radius: 10px;       /* 圆角边框 */
+}
+
+/* 地图容器内部填满 */
+#map {
+  width: 100%;                 /* 宽度100% */
+  height: 100%;                /* 高度100% */
+  border-radius: 10px;         /* 圆角 */
+}
+
+/* 右下文本区域，占用右侧高度一半 */
+.text-area {
+  flex: 0.3;                     /* 占用一半高度 */
+  background-color: #00253a;   /* 深蓝色背景 */
+  border-radius: 10px;         /* 圆角 */
+  padding: 15px;               /* 内边距 */
+  overflow-y: auto;            /* 纵向滚动 */
+  box-shadow: inset 0 0 5px #004080; /* 内阴影边框 */
+}
+
+/* 页脚样式 */
+footer {
+  background-color: #001b2e;      /* 深蓝色背景 */
+  color: #00eaff;                /* 亮蓝色字体 */
+  text-align: center;          /* 文字居中 */
+  padding: 10px;               /* 内边距 */
+  font-size: 14px;             /* 字体大小 */
+  flex-shrink: 0;              /* 不允许收缩 */
+  height: 2vh;                 /* 页脚高度：视口高度的7%，略小于页眉 */
+  min-height: 0px;
+  max-height: 20px;
+}
+.leaflet-control select {
+  appearance: none;
+  background-color: #101827; /* 深蓝背景 */
+  border: 1px solid #1f2937; /* 暗边框 */
+  border-radius: 4px;
+  padding: 6px 30px 6px 12px;
+  font-size: 14px;
+  color: #cbd5e1; /* 浅灰字体 */
+  box-shadow: 0 0 5px rgba(0, 153, 255, 0.4);
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='7' viewBox='0 0 10 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23cbd5e1' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 7px;
+  transition: all 0.25s ease;
+}
+
+.leaflet-control select:hover {
+  border-color: #00b4ff;
+  box-shadow: 0 0 8px rgba(0, 180, 255, 0.6);
+}
+
+.leaflet-control select:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
+

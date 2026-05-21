@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="icon" href="images/生活圈.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南京地铁生活服务</title>
+
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    
+    <!-- 右键菜单插件 -->
+    <link rel="stylesheet" href="leafletcontextmenu/leaflet.contextmenu.min.css" />
+
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="SubwayLife.css">
+    <link rel="stylesheet" href="Location.css">
+    <link rel="stylesheet" href="major web.css">
+
+    <!-- 基础结构样式 -->
+    <link rel="stylesheet" href="subwaylifefont/css/all.min.css" />
+
+</head>
+ 
+<body>
+   <div class="header">
+    <h1><span class="gradient-text">🚇 地铁生活服务</span></h1>
+    
+    <div class="controls">
+        <!-- 返回主页按钮 -->
+<div id="backButton" class="back-button">
+    <button onclick="goBack()">返回主页</button>
+</div>
+
+        <!-- 分类下拉菜单 -->
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-building"></i> 公共服务</button>
+            <div class="dropdown-content">
+                
+                <div class="subcategory-item" data-name="派出所">派出所</div>
+<div class="subcategory-item" data-name="停车场">停车场</div>
+<div class="subcategory-item" data-name="快递站">快递站</div>
+<div class="subcategory-item" data-name="洗衣店">洗衣店</div>
+
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-umbrella-beach"></i> 游玩</button>
+            <div class="dropdown-content">
+                <div class="subcategory-item" data-name="酒店">酒店</div>
+<div class="subcategory-item" data-name="民宿">民宿</div>
+<div class="subcategory-item" data-name="酒吧">酒吧</div>
+<div class="subcategory-item" data-name="网咖">网咖</div>
+<div class="subcategory-item" data-name="电影院">电影院</div>
+
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-utensils"></i> 饮食</button>
+            <div class="dropdown-content">
+               <div class="subcategory-item" data-name="火锅店">火锅店</div>
+<div class="subcategory-item" data-name="自助餐">自助餐</div>
+<div class="subcategory-item" data-name="烧烤店">烧烤店</div>
+<div class="subcategory-item" data-name="奶茶店">奶茶店</div>
+<div class="subcategory-item" data-name="咖啡馆">咖啡馆</div>
+
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-landmark"></i> 文化类</button>
+            <div class="dropdown-content">
+                <div class="subcategory-item" data-name="博物馆">博物馆</div>
+<div class="subcategory-item" data-name="艺术馆">艺术馆</div>
+<div class="subcategory-item" data-name="寺庙">寺庙</div>
+
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-graduation-cap"></i> 教育类</button>
+            <div class="dropdown-content">
+<div class="subcategory-item" data-name="图书馆">图书馆</div>
+<div class="subcategory-item" data-name="培训机构">培训机构</div>
+
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-hospital"></i> 医疗</button>
+            <div class="dropdown-content">
+              
+                <div class="subcategory-item" data-name="诊所">诊所</div>
+<div class="subcategory-item" data-name="药店">药店</div>
+<div class="subcategory-item" data-name="宠物医院">宠物医院</div>
+
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-running"></i> 运动类</button>
+            <div class="dropdown-content">
+                <div class="subcategory-item" data-name="体育馆">体育馆</div>
+      <div class="subcategory-item" data-name="游泳馆">游泳馆</div>
+      <div class="subcategory-item" data-name="高尔夫球场">高尔夫球场</div>
+      <div class="subcategory-item" data-name="公园">公园</div>
+     <div class="subcategory-item" data-name="健身房">健身房</div>
+            </div>
+        </div>
+        
+        <div class="category-dropdown">
+            <button class="category-btn"><i class="fas fa-shopping-cart"></i> 商业类</button>
+            <div class="dropdown-content">
+                <div class="subcategory-item" data-name="农贸市场">农贸市场</div>
+             <div id="marketBtn" class="subcategory-item" data-name="商场">商场</div>
+             <div id="supermarketBtn" class="subcategory-item" data-name="超市">超市</div>
+              <div class="subcategory-item" data-name="银行">银行</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="map-area">
+        <div id="map">地图加载中...</div>
+    </div>
+<!-- 新增选择框区域 -->
+<div class="selection-controls">
+    <div class="selection-item">
+        <label for="lineSelect">选择线路：</label>
+        <select id="lineSelect">
+            <option value="">请选择线路</option>
+            <option value="1">地铁1号线</option>
+            <option value="2">地铁2号线</option>
+            <option value="3">地铁3号线</option>
+            <option value="4">地铁4号线</option>
+            <option value="7">地铁7号线</option>
+            <option value="10">地铁10号线</option>
+            <option value="S1">地铁S1线</option>
+            <option value="S3">地铁S3线</option>
+            <option value="S6">地铁S6线</option>
+            <option value="S7">地铁S7线</option>
+            <option value="S8">地铁S8线</option>
+            <option value="S9">地铁S9线</option>
+        </select>
+    </div>
+
+    <div class="selection-item">
+        <label for="stationSelect">选择站点：</label>
+        <select id="stationSelect" disabled>
+            <option value="">请先选择线路</option>
+        </select>
+    </div>
+
+    <div class="selection-item">
+        <label for="rangeSelect">选择范围：</label>
+        <select id="rangeSelect">
+            <option value="300">300m</option>
+            <option value="500" selected>500m</option>
+            <option value="1000">1km</option>
+        </select>
+    </div>
+
+  <div class="control-group">
+    <button id="queryPoiBtn" class="btn">查询范围内设施</button>
+    <div id="poiResults" style="display:none; max-height:200px;overflow-y: auto;margin-top:10px; background:white; padding:10px; border-radius:4px;">
+        <ul id="poiList" style="list-style:none; padding:0; cursor: pointer; color: #007bff;"></ul>
+    </div>
+</div>
+
+</div>
+</div>
+
+    <!-- Leaflet 脚本 -->
+    <script src="leaflet/leaflet.js"></script>
+    <script src="config.example.js"></script>
+    <script src="config.local.js"></script>
+    
+    <!-- 右键菜单插件 -->
+    <script src="leafletcontextmenu/leaflet.contextmenu.min.js"></script>
+
+    <!-- 你的 JS 脚本 -->
+    <script src="majormap.js"></script>
+    <script src="SubwayLife.js"></script>
+    <script src="Location.js"></script> 
+
+
+    <!-- 初始化脚本 -->
+    <script>
+        
+        document.getElementById('clearCircles').addEventListener('click', function() {
+            if (window.clearCircles) {
+                window.clearCircles();
+            }
+        });
+        // 确保Font Awesome已加载
+if (!document.querySelector('link[href*="font-awesome"]')) {
+    const faLink = document.createElement('link');
+    faLink.rel = 'stylesheet';
+    faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+    document.head.appendChild(faLink);
+}
+
+// 点击分类按钮时显示/隐藏下拉菜单
+document.querySelectorAll('.category-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const dropdown = this.closest('.category-dropdown');
+        
+        // 关闭其他打开的下拉菜单
+        document.querySelectorAll('.category-dropdown').forEach(d => {
+            if (d !== dropdown) {
+                d.querySelector('.dropdown-content').style.display = 'none';
+            }
+        });
+        
+        // 切换当前下拉菜单
+        const content = dropdown.querySelector('.dropdown-content');
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+});
+
+// 点击页面其他区域关闭所有下拉菜单
+document.addEventListener('click', function() {
+    document.querySelectorAll('.dropdown-content').forEach(content => {
+        content.style.display = 'none';
+    });
+});
+
+// 子分类点击处理
+document.querySelectorAll('.subcategory-item').forEach(item => {
+    item.addEventListener('click', function() {
+        const category = this.closest('.category-dropdown').querySelector('.category-btn').textContent.trim();
+        const itemName = this.textContent;
+        console.log(`选择了 ${category} - ${itemName}`);
+        // 这里可以添加实际的处理逻辑
+    });
+});
+    </script>
+    <button class="left-button" onclick="locateMe()" style="display:none;"></button>
+
+</body>
+</html>

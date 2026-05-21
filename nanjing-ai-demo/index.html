@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 问答助手测试</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    #chat-box { max-width: 600px; margin: auto; border: 1px solid #ccc; padding: 10px; border-radius: 8px; }
+    #messages { max-height: 300px; overflow-y: auto; margin-bottom: 10px; }
+    .msg { padding: 5px 10px; margin: 5px 0; border-radius: 6px; }
+    .user { background: #e6f7ff; text-align: right; }
+    .bot { background: #f0f0f0; text-align: left; }
+    input, button { padding: 10px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h2>🧠 AI 问答助手</h2>
+  <div id="chat-box">
+    <div id="messages"></div>
+    <input id="input" type="text" placeholder="请输入你的问题…" />
+    <button onclick="sendMessage()">发送</button>
+  </div>
+
+  <script src="ai.js"></script>
+</body>
+</html>

@@ -1,0 +1,303 @@
+body {
+  font-family: "微软雅黑", sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #333;
+  /* background-image: url('https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop='); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+/* 页面布局 */
+.header, .filter, .content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px); /* 增加模糊效果 */
+}
+
+.header h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+/* 筛选器样式 */
+.filter {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.filter div {
+  margin-bottom: 10px;
+}
+
+.filter-option {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #555;
+  background: #eee;
+  transition: 0.3s;
+}
+
+.filter-option.active,
+.filter-option:hover {
+  background: #d43f3a;
+  color: #fff;
+}
+
+/* 卡片展示区域 */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.card {
+  background: #fff;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.card .desc {
+  font-size: 14px;
+  color: #666;
+  margin: 0 10px 10px;
+}
+
+.card .meta {
+  font-size: 12px;
+  color: #999;
+  margin: 0 10px 10px;
+}
+
+mark {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* 搜索框容器 */
+.g-container {
+  position: relative;
+  margin: 40px auto;
+  width: 500px;
+  height: 60px;
+  display: flex;
+  transition: 0.3s;
+}
+
+.g-container input.g_input_search {
+  padding: 0 15px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.g-container input.g_input_search:focus {
+  border: 1px solid #03a9f4;
+  box-shadow: 0 0 8px rgba(3, 169, 244, 0.3);
+}
+
+.g-container button.g_button_search {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 40px;
+  width: 100px;
+  background: #03a9f4;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.8;
+}
+
+.g-container button.g_button_search:hover {
+  opacity: 1;
+}
+
+.glass-layer {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/mybackground.jpg')
+    no-repeat center center fixed;
+  background-size: cover;
+  
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  z-index: -1;
+}
+
+
+
+
+
+/* 天气 */
+/* 天气查询样式 */
+
+
+#weatherBox {
+  padding: 10px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  font-family: '微软雅黑', sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 8px;  
+}
+
+
+.user-message {
+  background: #e6f7ff;
+  color: #0050b3;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 6px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.ai-message {
+  background: #f0f0f0;
+  color: #333;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.thinking-message {
+  color: gray;
+  font-style: italic;
+  margin: 4px 0;
+}
+
+#chat-float-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  cursor: grab;  /* 改成抓手，拖动时更自然 */
+  z-index: 10000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* 聊天窗口 */
+#ai-chat-widget {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: '微软雅黑';
+  display: none;
+  background: #fff;
+  z-index: 9999;
+}
+
+/* 聊天标题 */
+.chat-header {
+  background: #007bff;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+/* 聊天内容区域 */
+.chat-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  background: #fafafa;
+  padding: 10px;
+}
+
+/* 输入与按钮容器 */
+.chat-input-container {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+/* 输入框 */
+.chat-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+/* 发送按钮 */
+.chat-send {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.return-button-top-left {
+  
+  top: 22px;
+  left: 22px;
+  z-index: 9999;
+  background-color: #1a6bbc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.return-button-top-left:hover {
+  background-color: #1a6bbc;
+  transform: scale(1.05);
+}

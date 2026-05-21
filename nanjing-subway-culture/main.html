@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+       <link rel="icon" href="../images/旅游景点.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>南京景点首页</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: "微软雅黑", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .header h2 {
+      font-size: 28px;
+      color: #333;
+    }
+    .search-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .search-group input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .search-group button {
+      padding: 10px 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .btn-blue {
+      background-color: #007bff;
+      color: #fff;
+    }
+    .btn-orange {
+      background-color: #fd7e14;
+      color: #fff;
+    }
+    .filters {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .filter-group {
+      margin-bottom: 10px;
+    }
+    .filter-group strong {
+      display: inline-block;
+      width: 120px;
+      color: #333;
+    }
+    .filter-option {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 5px 10px;
+      background: #eee;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .filter-option.active {
+      background-color: #007bff;
+      color: white;
+    }
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+    .card .title {
+      font-size: 18px;
+      margin: 10px;
+      font-weight: bold;
+    }
+    .card .desc {
+      font-size: 14px;
+      color: #666;
+      margin: 0 10px 10px 10px;
+    }
+    .card .meta {
+      font-size: 12px;
+      color: #999;
+      margin: 0 10px 10px 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <button class="return-button-top-left" onclick="window.location.href='../webgis1.html'">← 返回主页</button>
+
+  <h2>📍 景点景区</h2>
+
+  <div class="g-container">
+    <input type="text" placeholder="输入你想查询的内容" class="g_input_search">
+    <button type="button" class="g_button_search">GO</button>
+    <!-- <button class="btn-orange">景点门票信息</button> -->
+  </div>
+<div id="weatherBox">
+  📍 当前地区：<span id="currentCity">定位中...</span> |
+  🌤 天气：<span id="currentWeather">加载中...</span>
+</div>
+
+</div>
+
+
+
+
+
+
+<!-- 天气查询模块（悬浮在右上角） -->
+<!-- <div id="weather-widget" class="weather-container">
+  <div class="weather-inputs">
+    <input type="text" id="cityInput" placeholder="输入城市名称" list="cityList" autocomplete="off" />
+    <datalist id="cityList"></datalist>
+    <select id="presetCity" title="选择城市">
+      <option value="">选择预设城市</option>
+      <option value="北京">北京</option>
+      <option value="上海">上海</option>
+      <option value="广州">广州</option>
+      <option value="深圳">深圳</option>
+      <option value="南京">南京</option>
+    </select>
+    <button onclick="getWeather()">查询天气</button>
+  </div>
+  <div id="weatherResult" class="weather-result"></div>
+</div> -->
+
+
+<div class="glass-layer"></div>
+
+<div class="glass-effect" aria-hidden="true"></div>
+
+
+  <div class="filters">
+
+<div class="filter-group">
+  <strong>线路：</strong>
+  <span class="filter-option active" data-type="line" data-value="全部">全部</span>
+  <span class="filter-option" data-type="line" data-value="1号线">1号线</span>
+  <span class="filter-option" data-type="line" data-value="2号线">2号线</span>
+  <span class="filter-option" data-type="line" data-value="3号线">3号线</span>
+  <span class="filter-option" data-type="line" data-value="4号线">4号线</span>
+  <span class="filter-option" data-type="line" data-value="5号线">5号线</span>
+  <span class="filter-option" data-type="line" data-value="7号线">7号线</span>
+  <span class="filter-option" data-type="line" data-value="10号线">10号线</span>
+  <span class="filter-option" data-type="line" data-value="S1号线">S1号线</span>
+  <span class="filter-option" data-type="line" data-value="S3号线">S3号线</span>
+  <span class="filter-option" data-type="line" data-value="S6号线">S6号线</span>
+  <span class="filter-option" data-type="line" data-value="S7号线">S7号线</span>
+  <span class="filter-option" data-type="line" data-value="S8号线">S8号线</span>
+  <span class="filter-option" data-type="line" data-value="S9号线">S9号线</span>
+</div>
+
+
+    <div class="filter-group">
+      <strong>主题类型：</strong>
+      <span class="filter-option active" data-type="category" data-value="全部">全部</span>
+      <span class="filter-option" data-type="category" data-value="推荐景点">推荐景点</span>
+      <span class="filter-option" data-type="category" data-value="历史遗迹">历史遗迹</span>
+      <span class="filter-option" data-type="category" data-value="文博场馆">文博场馆</span>
+      <span class="filter-option" data-type="category" data-value="红色旅游">红色旅游</span>
+      <span class="filter-option" data-type="category" data-value="宗教胜迹">宗教胜迹</span>
+      <span class="filter-option" data-type="category" data-value="南京新景">南京新景</span>
+      <span class="filter-option" data-type="category" data-value="亲子研学">亲子研学</span>
+      <span class="filter-option" data-type="category" data-value="其它景点">其它景点</span>
+    </div>
+    <div class="filter-group">
+      <strong>等级景区：</strong>
+      <span class="filter-option active" data-type="grade" data-value="全部">全部</span>
+      <span class="filter-option" data-type="grade" data-value="5A景区">5A景区</span>
+      <span class="filter-option" data-type="grade" data-value="4A景区">4A景区</span>
+      <span class="filter-option" data-type="grade" data-value="3A景区">3A景区</span>
+      <span class="filter-option" data-type="grade" data-value="2A景区">2A景区</span>
+    </div>
+    <div class="filter-group">
+      <strong>季节分类：</strong>
+      <span class="filter-option active" data-type="season" data-value="全部">全部</span>
+      <span class="filter-option" data-type="season" data-value="踏春">踏春</span>
+      <span class="filter-option" data-type="season" data-value="消夏">消夏</span>
+      <span class="filter-option" data-type="season" data-value="赏秋">赏秋</span>
+      <span class="filter-option" data-type="season" data-value="玩冬">玩冬</span>
+    </div>
+    <div class="filter-group">
+      <strong>特色街区：</strong>
+      <span class="filter-option active" data-type="street" data-value="全部">全部</span>
+      <span class="filter-option" data-type="street" data-value="夫子庙秦淮风光带">夫子庙秦淮风光带</span>
+      <span class="filter-option" data-type="street" data-value="钟山风景名胜区">钟山风景名胜区</span>
+      <span class="filter-option" data-type="street" data-value="长江路历史文化街区">长江路历史文化街区</span>
+      <span class="filter-option" data-type="street" data-value="南京明城墙">南京明城墙</span>
+      <span class="filter-option" data-type="street" data-value="滨江风光带">滨江风光带</span>
+    </div>
+    <div class="filter-group">
+      <strong>区域分类：</strong>
+      <span class="filter-option active" data-type="district" data-value="全部">全部</span>
+      <span class="filter-option active" data-type="district" data-value="浦口区">浦口区</span>
+      <span class="filter-option" data-type="district" data-value="秦淮区">秦淮区</span>
+      <span class="filter-option" data-type="district" data-value="玄武区">玄武区</span>
+      <span class="filter-option" data-type="district" data-value="建邺区">建邺区</span>
+      <span class="filter-option" data-type="district" data-value="雨花台区">雨花台区</span>
+      <span class="filter-option" data-type="district" data-value="鼓楼区">鼓楼区</span>
+      <span class="filter-option" data-type="district" data-value="江宁区">江宁区</span>
+      <span class="filter-option" data-type="district" data-value="六合区">六合区</span>
+      <span class="filter-option" data-type="district" data-value="栖霞区">栖霞区</span>
+      <span class="filter-option" data-type="district" data-value="高淳区">高淳区</span>
+      <span class="filter-option" data-type="district" data-value="溧水区">溧水区</span>
+    </div>
+  </div>
+
+  <div class="card-grid" id="cardGrid"></div>
+
+
+</div>
+
+
+<!-- 测试 -->
+
+<script src="../config.example.js"></script>
+<script src="../config.local.js"></script>
+<script src="chat-widget.js"></script>
+<script src="script.js"></script>
+<script src="weather-widget.js"></script>
+
+    <!-- <script src="voice.js"></script> -->
+</body>
+</html>
+
+ <!-- cd "C:\Programming File\nanjing-ai-demo"
+Set-ExecutionPolicy RemoteSigned -Scope Process跳
+npm install express cors openai跳
+node chat-api.mjs-->

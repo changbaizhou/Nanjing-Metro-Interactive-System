@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <link rel="icon" href="images/信息.png" type="image/png">
+  <meta charset="UTF-8" />
+  <title>联系我们 - 金陵地铁智行通</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "微软雅黑", sans-serif;
+      background: #0b0f2b;
+      color: #ffffff;
+      height: 100vh;
+      background-image: url('images/background1.png'); /* 替换你的背景图 */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+   .contact-container {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 16px;
+  padding: 40px 60px 60px;
+  max-width: 700px;
+  width: 100%;
+  max-height: 80vh; /* 限制最大高度为视口高度的 80% */
+  overflow-y: auto; /* 当内容溢出时显示垂直滚动条 */
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 128, 255, 0.4);
+  backdrop-filter: blur(6px);
+  position: relative;
+}
+.contact-container::-webkit-scrollbar {
+  width: 8px;
+}
+.contact-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 128, 255, 0.5);
+  border-radius: 4px;
+}
+.contact-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+    .contact-container .LOGO {
+      width: 150px;
+      height: auto;
+      margin: 0 auto 30px;
+      display: block;
+    }
+
+    .contact-container h1 {
+      font-size: 32px;
+      margin-bottom: 24px;
+      color: #00bfff;
+    }
+
+    .contact-container p {
+      line-height: 1.8;
+      font-size: 17px;
+      margin: 12px 0;
+    }
+
+    .highlight {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    .btn-return {
+      margin-top: 36px;
+      background-color: #1a6bbc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-return:hover {
+      background-color: #155a9c;
+      transform: scale(1.05);
+    }
+    a {
+  color: #00bfff;           /* 普通状态下的颜色 */
+  text-decoration: none;    /* 去掉下划线 */
+  transition: color 0.1s;   /* 平滑颜色变化 */
+}
+a:hover {
+  color: #297b94;           /* 鼠标悬浮时颜色 */
+  text-decoration: underline; /* 悬浮时加下划线（可选） */
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <img src="images/LOGO.png" alt="南京地铁" class="LOGO">
+
+    <h1>联系我们</h1>
+    <p>欢迎使用 <span class="highlight">金陵地铁智行通</span> 系统。</p>
+    <p>如有建议或问题，欢迎通过 GitHub Issues 与项目维护者联系。</p>
+    <p>📌 声明：本系统仅供学习与交流使用，如有侵权，请通过项目仓库反馈。</p>
+     <p>我们对图片的引用来源表示真诚的感谢，以下是引用来源</p>
+     <p>📈<a href="https://weibo.com/u/2638276292" target="_blank">地铁时刻表：南京地铁官方微博</a></p>
+     <p>🌆<a href="https://njlyw.cn/websitenew/web/scenic?m=173" target="_blank">金陵文化导览图片：南京文旅官方</a></p>
+    <button class="btn-return" onclick="goHome()">返回主页</button>
+  </div>
+
+  <script>
+    function goHome() {
+      window.location.href = "webgis1.html"; // 跳转主页，路径根据实际调整
+    }
+  </script>
+
+</body>
+</html>

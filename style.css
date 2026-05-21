@@ -1,0 +1,167 @@
+body {
+  font-family: "微软雅黑", sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #333;
+  /* background-image: url('https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop='); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+/* 页面布局 */
+.header, .filter, .content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-bottom: 20px;
+    backdrop-filter: blur(2px); /* 增加模糊效果 */
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.header h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+/* 筛选器样式 */
+.filter {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.filter div {
+  margin-bottom: 10px;
+}
+
+.filter-option {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #555;
+  background: #eee;
+  transition: 0.3s;
+}
+
+.filter-option.active,
+.filter-option:hover {
+  background: #d43f3a;
+  color: #fff;
+}
+
+/* 卡片展示区域 */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.card {
+  background: #fff;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.card .desc {
+  font-size: 14px;
+  color: #666;
+  margin: 0 10px 10px;
+}
+
+.card .meta {
+  font-size: 12px;
+  color: #999;
+  margin: 0 10px 10px;
+}
+
+mark {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* 搜索框容器 */
+.g-container {
+  position: relative;
+  margin: 40px auto;
+  width: 500px;
+  height: 60px;
+  display: flex;
+  transition: 0.3s;
+}
+
+.g-container input.g_input_search {
+  padding: 0 15px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.g-container input.g_input_search:focus {
+  border: 1px solid #03a9f4;
+  box-shadow: 0 0 8px rgba(3, 169, 244, 0.3);
+}
+
+.g-container button.g_button_search {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 40px;
+  width: 100px;
+  background: #03a9f4;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.8;
+}
+
+.g-container button.g_button_search:hover {
+  opacity: 1;
+}
+
+.glass-layer {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/mybackground.jpg')
+    no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: -1;
+}
+
+
+
+
+ 
